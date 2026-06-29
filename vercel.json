@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "name": "ecourt-fhunita",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "installCommand": "bun install",
+  "devCommand": "next dev",
+  "git": {
+    "deploymentEnabled": true
+  },
+  "github": {
+    "silent": false,
+    "autoAlias": true
+  },
+  "regions": ["sin1"],
+  "env": {
+    "NEXT_PUBLIC_APP_NAME": "e-Court FH UNTA"
+  }
+}
