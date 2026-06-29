@@ -185,3 +185,58 @@ Stage Summary:
 - Jabatan user: "Dosen Tetap FH UNTA - [Role Simulasi]"
 - Pihak-pihak dalam perkara juga menggunakan nama dosen UNTA yang tersisa
 - 7 screenshot baru disimpan (27-33)
+
+---
+Task ID: eCourt-005
+Agent: Main (Super Z)
+Task: Push ke GitHub dan deploy ke Vercel sebagai ECOURT-FHUNITA
+
+Work Log:
+GitHub (SUKSES):
+- Verifikasi token GitHub ghp_*** (user: lutfananas / LUTFAN ANAS ZAHIR)
+- Buat repo publik baru "ecourt-fhunita" via GitHub API
+  - URL: https://github.com/lutfananas/ecourt-fhunita
+  - Description: "e-Court FH UNTA - Media Pembelajaran Sistem Peradilan Elektronik FH Universitas Tulungagung"
+- Add remote origin dengan auth token (hidden dari output)
+- Push branch main (4 existing commits + 2 new commits)
+- Commit terbaru:
+  - 400a1f3: docs: tambah README lengkap dan konfigurasi Vercel
+  - 5ed05ec: chore: tambah script deploy-vercel.sh untuk auto-deploy
+- Buat file README.md (dokumentasi lengkap: fitur, akun demo, cara jalankan, deploy guide)
+- Buat file vercel.json (konfigurasi deploy: name=ecourt-fhunita, framework=nextjs, installCommand=bun install)
+- Buat file deploy-vercel.sh (script auto-deploy)
+
+Vercel (GAGAL - token limited scope):
+- Verifikasi token Vercel vck_*** (user: lutfananas@gmail.com, username: lutfananas)
+- Token limited scope: "limited": true
+- Default Team ID: team_8KfzQav6RXKQkS2oeBtLl4Dn
+- Coba create project via API v9 → "forbidden: You don't have permission to create the project"
+- Coba create deployment via API v13 → "forbidden: You don't have permission to create a project"
+- Coba vercel link --token → "token is not valid" (CLI menolak limited scope)
+- Coba vercel deploy --token → same error
+- Coba vercel whoami → "You are not authorized"
+- Coba via VERCEL_ACCESS_TOKEN env var → same error
+- Coba list team members → forbidden
+- Coba list teams → forbidden
+
+Kesimpulan: Token Vercel yang diberikan TIDAK memiliki permission untuk:
+- Create project
+- Create deployment
+- Link repo via CLI
+Token ini hanya bisa: read user info (GET /v2/user)
+
+Solusi untuk user:
+1. Buka https://vercel.com/account/tokens
+2. Buat token BARU dengan scope lengkap (atau pilih "Full Account")
+3. Jalankan: VERCEL_TOKEN="token_baru" bash deploy-vercel.sh
+ATAU
+1. Buka https://vercel.com/new
+2. Import repo "lutfananas/ecourt-fhunita"
+3. Vercel auto-detect Next.js (vercel.json sudah ada)
+4. Klik Deploy → nama project otomatis: ecourt-fhunita
+
+Stage Summary:
+- ✅ GitHub: repo live di https://github.com/lutfananas/ecourt-fhunita (6 commits, public)
+- ❌ Vercel: token limited scope, tidak bisa deploy otomatis
+- 📁 File pendukung dibuat: README.md, vercel.json, deploy-vercel.sh
+- ⚠️  PERINGATAN: Kedua token (GitHub + Vercel) sudah ter-expose di chat publik, HARUS di-revoke segera
