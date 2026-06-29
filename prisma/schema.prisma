@@ -1,0 +1,239 @@
+// e-Court Mahkamah Agung - Prisma Schema
+// Database: SQLite untuk development (mudah diganti ke MySQL/PostgreSQL nanti)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ================== MASTER DATA ==================
+
+model Pengadilan {
+  id              String   @id @default(cuid())
+  kode            String   @unique
+  nama            String
+  tingkat         String   // "PERTAMA" | "BANDING"
+  jenis           String   // "UMUM" | "AGAMA" | "TUN"
+  alamat          String?
+  kota            String?
+  provinsi        String?
+  email           String?
+  telepon         String?
+  bankNama        String?
+  bankNoRek       String?
+  bankAtasNama    String?
+  googleMail      String?
+  aktif           Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  perkara         Perkara[]
+  biayaComponents  BiayaComponent[]
+  radiusPanggilan RadiusPanggilan[]
+  users           User[]
+}
+
+model JenisBiaya {
+  id            String          @id @default(cuid())
+  pengadilanId  String
+  pengadilan    Pengadilan      @relation(fields: [pengadilanId], references: [id], onDelete: Cascade)
+  jenisPerkara  String          // "GUGATAN" | "BANTAHAN" | "GUGATAN_SEDERHANA" | "PERMOHONAN"
+  urutan        Int
+  namaBiaya     String
+  nominal       Int             @default(0)
+  kodePerkalian Int             @default(1) // 1=langsung, 2=penggugat, 3=tergugat, 100=relaas
+  aktif         Boolean         @default(true)
+  createdAt     DateTime        @default(now())
+
+  biayaComponents BiayaComponent[] @relation("JenisBiayaToBiayaComponent")
+}
+
+model BiayaComponent {
+  id            String     @id @default(cuid())
+  pengadilanId  String
+  pengadilan    Pengadilan @relation(fields: [pengadilanId], references: [id], onDelete: Cascade)
+  jenisBiayaId  String?
+  jenisBiaya    JenisBiaya? @relation("JenisBiayaToBiayaComponent", fields: [jenisBiayaId], references: [id])
+  jenisPerkara  String
+  urutan        Int
+  namaBiaya     String
+  nominal       Int        @default(0)
+  kodePerkalian Int        @default(1)
+  aktif         Boolean    @default(true)
+  createdAt     DateTime   @default(now())
+}
+
+model RadiusPanggilan {
+  id           String     @id @default(cuid())
+  pengadilanId String
+  pengadilan   Pengadilan @relation(fields: [pengadilanId], references: [id], onDelete: Cascade)
+  provinsi     String
+  kabupaten    String
+  kecamatan    String
+  radius       Int        // dalam km
+  biayaPerKm   Int
+  createdAt    DateTime   @default(now())
+}
+
+// ================== USER MANAGEMENT ==================
+
+model User {
+  id            String     @id @default(cuid())
+  username      String     @unique
+  email         String     @unique
+  password      String
+  role          String     // "ADVOKAT" | "INSIDENTIL" | "ADMIN_BANDING" | "ADMIN_PERTAMA" | "HAKIM" | "SUPER_ADMIN"
+  status        String     @default("AKTIF") // "AKTIF" | "BLOK" | "PINDAH" | "BELUM_VERIFIKASI" | "TERVERIFIKASI" | "KADALUWARSA"
+  nama          String
+  fotoProfil    String?
+  telepon       String?
+  // Advokat-specific
+  noBaSumpah    String?
+  tglSumpah     DateTime?
+  noKta         String?
+  jenisInsidentil String?  // "PERSEORANGAN" | "PEMERINTAHAN" | "BADAN_HUKUM"
+  nip           String?    // for court staff
+  jabatan       String?    // for court staff
+  pengadilanId  String?
+  pengadilan    Pengadilan? @relation(fields: [pengadilanId], references: [id])
+  // Hakim-specific
+  nipHakim      String?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  perkaraDiajukan  Perkara[]     @relation("PerkaraPendaftar")
+  dokumenUpload    Dokumen[]     @relation("DokumenUploader")
+  riwayatAksi      RiwayatUser[]
+  advokatVerifyBy  PerkaraPihak[] @relation("AdvokatPihak")
+}
+
+// ================== PERKARA ==================
+
+model Perkara {
+  id              String       @id @default(cuid())
+  nomorRegisterOnline String   @unique
+  nomorPerkara    String?
+  barcode         String
+  jenisPerkara    String       // "GUGATAN" | "BANTAHAN" | "GUGATAN_SEDERHANA" | "PERMOHONAN"
+  pendaftarId     String
+  pendaftar       User         @relation("PerkaraPendaftar", fields: [pendaftarId], references: [id])
+  pengadilanId    String
+  pengadilan      Pengadilan   @relation(fields: [pengadilanId], references: [id])
+  // Status flow: "DRAFT" -> "MENUNGGU_PEMBAYARAN" -> "DIBAYAR" -> "TERVERIFIKASI" -> "TERDAFTAR" -> "DALAM_SIDANG" -> "PUTUS"
+  status          String       @default("DRAFT")
+  // Petunjuk perkara
+  klasifikasiPerkara String?
+  gugatanRingkas  String?
+  // Persetujuan prinsipal
+  persetujuanPrinsipal Boolean @default(false)
+  // e-SKUM
+  totalPanjar     Int          @default(0)
+  // e-Payment
+  virtualAccount  String?
+  tglPembayaran   DateTime?
+  // e-Summons
+  tglPanggilan    DateTime?
+  // Persidangan
+  tglSidangPertama DateTime?
+  // Putusan
+  tglPutusan      DateTime?
+  salinanPutusanUrl String?
+  // Timestamps
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  pihak           PerkaraPihak[]
+  dokumens        Dokumen[]
+  sidangs         Sidang[]
+  biayaDetails    BiayaDetail[]
+}
+
+model PerkaraPihak {
+  id            String   @id @default(cuid())
+  perkaraId     String
+  perkara       Perkara  @relation(fields: [perkaraId], references: [id], onDelete: Cascade)
+  // "PENGUGAT" | "TERGUGAT" | "TURUT_TERGUGAT" | "PIHAK_INTERVENSI"
+  role          String
+  nama          String
+  ktp           String?
+  alamat        String?
+  provinsi      String?
+  kabupaten     String?
+  kecamatan     String?
+  email         String?
+  telepon       String?
+  // Untuk perseorangan/badan hukum
+  jenis         String?  // "PERSEORANGAN" | "PEMERINTAHAN" | "BADAN_HUKUM"
+  // Kuasa hukum (advokat) - jika ada
+  advokatId     String?
+  advokat       User?    @relation("AdvokatPihak", fields: [advokatId], references: [id])
+  persetujuanElektronik Boolean @default(false)
+  createdAt     DateTime @default(now())
+}
+
+model Dokumen {
+  id            String   @id @default(cuid())
+  perkaraId     String
+  perkara       Perkara  @relation(fields: [perkaraId], references: [id], onDelete: Cascade)
+  // "SURAT_KUASA" | "GUGATAN" | "PERSETUJUAN_PRINSIPAL" | "KTP" | "JAWABAN" | "REPLIK" | "DUPLIK" | "KESIMPULAN" | "SALINAN_PUTUSAN" | "LAINNYA"
+  jenis         String
+  nama          String
+  fileName      String
+  fileType      String   // "pdf" | "doc" | "rtf" | "zip"
+  fileUrl       String
+  fileSize      Int      @default(0)
+  uploaderId    String
+  uploader      User     @relation("DokumenUploader", fields: [uploaderId], references: [id])
+  // "TERKUNCI" | "TERBUKA" - terkunci sampai diverifikasi hakim
+  status        String   @default("TERKUNCI")
+  verifiedBy    String?
+  verifiedAt    DateTime?
+  createdAt     DateTime @default(now())
+}
+
+model Sidang {
+  id            String   @id @default(cuid())
+  perkaraId     String
+  perkara       Perkara  @relation(fields: [perkaraId], references: [id], onDelete: Cascade)
+  urutan        Int
+  tanggal       DateTime
+  agenda        String   // "JAWABAN" | "REPLIK" | "DUPLIK" | "KESIMPULAN" | "PUTUSAN" | "PENETAPAN"
+  status        String   @default("DIJADWALKAN") // "DIJADWALKAN" | "SELESAI" | "DITUNDA"
+  keterangan    String?
+  createdAt     DateTime @default(now())
+}
+
+model BiayaDetail {
+  id            String   @id @default(cuid())
+  perkaraId     String
+  perkara       Perkara  @relation(fields: [perkaraId], references: [id], onDelete: Cascade)
+  urutan        Int
+  namaBiaya     String
+  nominal       Int
+  kodePerkalian Int      @default(1)
+  subtotal      Int
+  createdAt     DateTime @default(now())
+}
+
+model RiwayatUser {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  aksi          String
+  detail        String?
+  ip            String?
+  waktu         DateTime @default(now())
+}
+
+model Pengumuman {
+  id            String   @id @default(cuid())
+  judul         String
+  isi           String
+  dari          String   // "MAHKAMAH_AGUNG" | "PENGADILAN"
+  status        String   @default("AKTIF")
+  createdAt     DateTime @default(now())
+}

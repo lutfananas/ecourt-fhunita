@@ -1,0 +1,2002 @@
+                  Buku Panduan
+e-Court Mahkamah Agung 2019 |1
+                                                                                                                             Buku Panduan
+           DAFTAR ISI                                                                                      e-Court Mahkamah Agung 2019 |2
+
+
+
+
+PENGGUNA TERDAFTAR (ADVOKAT) ....................................................................................................... 7
+1.     Definisi dan Pengertian ................................................................................................................... 7
+1.1.     Pendaftaran Perkara Online (e-Filing) ........................................................................................... 7
+1.2.     Pembayaran Panjar Biaya Online (e-Payment).............................................................................. 7
+1.3.     Pemanggilan Elektronik (e-Summons) .......................................................................................... 8
+1.4.     Persidangan Elektronik (e-Litigasi) ................................................................................................ 8
+2.     Pendaftaran Perkara Pengguna Terdaftar (Advokat) ....................................................................... 8
+2.1.      Login ............................................................................................................................................ 9
+2.2.     Dashoboard Pengguna Terdaftar ................................................................................................ 11
+2.3.      Pendaftaran Perkara.................................................................................................................. 12
+2.4.      Detil Pendaftaran Perkara Pengguna Terdaftar (Advokat) ........................................................ 23
+
+
+PENGGUNA INSIDENTIL (NON ADVOKAT) ............................................................................................. 26
+3.     Definisi dan Pengertian ................................................................................................................. 26
+3.1.     Pendaftaran Perkara Online (e-Filing) ......................................................................................... 26
+3.2.     Pembayaran Panjar Biaya Online (e-Payment)............................................................................ 27
+3.3.     Pemanggilan Elektronik (e-Summons) ........................................................................................ 27
+3.4.     Persidangan Elektronik (e-Litigasi) .............................................................................................. 28
+4.     Pendaftaran Perkara Pengguna Insidentil ..................................................................................... 28
+4.1.      Login .......................................................................................................................................... 28
+4.2.     Dashboard Pengguna Insidentil................................................................................................... 29
+4.3.      Pendaftaran Perkara.................................................................................................................. 30
+4.4.      Detil Pendaftaran Perkara Pengguna Insidentil ......................................................................... 39
+
+
+USER LOGIN ADMINISTRATOR PENGADILAN TINGKAT BANDING ......................................................... 42
+User Login Administrator Pengadilan Tingkat Banding.......................................................................... 42
+5.     Dashboard Administrator Pengadilan Tingkat Banding ................................................................. 42
+5.1.      Membuat email Gmail ............................................................................................................... 42
+5.2.      Daftar Advokat .......................................................................................................................... 44
+5.3.      Verifikasi Data Pengguna Terdaftar ........................................................................................... 45
+5.4.      Data Diri Pengguna .................................................................................................................... 46
+USER LOGIN ADMINISTRATOR PENGADILAN TINGKAT PERTAMA #1 .................................................... 48
+6.     Dashboard Administrator Pengadilan Tingkat Pertama #1............................................................ 48
+                                                                                                                           Buku Panduan
+                                                                                                         e-Court Mahkamah Agung 2019 |3
+
+6.1.       Membuat email Gmail ............................................................................................................... 49
+6.2.       Konfigurasi Pengadilan .............................................................................................................. 50
+6.3.       Pengguna................................................................................................................................... 51
+6.4.       Jenis Biaya ................................................................................................................................. 53
+6.5.       Riwayat Pengguna ..................................................................................................................... 55
+6.6.       Radius Biaya Panggilan .............................................................................................................. 56
+6.7.       Pengguna Non Advokat ............................................................................................................. 57
+6.7.1. Tambah Pengguna ...................................................................................................................... 57
+6.7.2. Aktivasi Ulang .............................................................................................................................. 63
+6.8.       Detil Pendaftaran Perkara Administrator Pengadilan Pertama ................................................. 64
+6.8.1. Pendaftaran ................................................................................................................................ 64
+6.8.2. Persidangan................................................................................................................................. 69
+6.8.3. Dokumen..................................................................................................................................... 71
+
+
+USER LOGIN ADMINISTRATOR PENGADILAN TINGKAT PERTAMA #2 .................................................... 73
+7.     Register Pendaftaran Online di SIPP .............................................................................................. 73
+8.     Meregister Perkara dari Pendaftaran Online................................................................................. 73
+
+
+USER LOGIN HAKIM ............................................................................................................................... 78
+9.     Dashboard Hakim .......................................................................................................................... 78
+10.        Edit Profile Hakim ...................................................................................................................... 79
+11.        Detil Pendaftaran Perkara Hakim .............................................................................................. 80
+                                                                                                                    Buku Panduan
+                                                                                                  e-Court Mahkamah Agung 2019 |4
+  DAFTAR GAMBAR
+
+
+Gambar 1 Halaman Register Akun Pengguna Terdaftar .......................................................................... 9
+Gambar 2 Halaman Utama e-Court ....................................................................................................... 10
+Gambar 3 Halaman Login ...................................................................................................................... 10
+Gambar 4 Data Advokat Pendaftaran .................................................................................................... 11
+Gambar 5 Dashboard Pengguna Terdaftar ............................................................................................ 12
+Gambar 6 Jenis Pendaftaran Perkara ................................................................................................ 13
+Gambar 7 Menu Dashboard Tambah Gugatan ...................................................................................... 13
+Gambar 8 Memilih Pengadilan tempat mendaftarkan perkara ............................................................. 14
+Gambar 9 Halaman Pendaftaran Perkara Gugatan ............................................................................... 14
+Gambar 10 Halaman Pendaftaan Surat Kuasa ....................................................................................... 15
+Gambar 11 Mengisi Data Pihak ............................................................................................................. 16
+Gambar 12 Field Tambah Pihak ............................................................................................................. 16
+Gambar 13 Halaman Upload Berkas Gugatan ....................................................................................... 17
+Gambar 14 Persetujuan Prinsipal .......................................................................................................... 17
+Gambar 15 Komponen Taksiran Biaya Panjar........................................................................................ 18
+Gambar 16 e-SKUM dari e-Court ........................................................................................................... 19
+Gambar 17 Halaman Penyelesaian Pembayaran dengan Virtual Account ............................................ 19
+Gambar 18 Pemberitahuan Email VA .................................................................................................... 20
+Gambar 19 Halaman Verifikasi Berhasil dan Mendapatkan Nomor Perkara ......................................... 21
+Gambar 20 Email E-Filing Verifikasi ....................................................................................................... 21
+Gambar 21 E-Summons ......................................................................................................................... 22
+Gambar 22 Persidangan elektronik ....................................................................................................... 23
+Gambar 23 Detil Pendaftaran Gugatan ................................................................................................. 23
+Gambar 24 Detil Pendaftaran Gugatan ................................................................................................. 24
+Gambar 25 Detil Persidangan ................................................................................................................ 24
+Gambar 26 Detil Dokumen .................................................................................................................... 25
+Gambar 27 Halaman Utama e-Court ..................................................................................................... 28
+Gambar 28 Halaman Login .................................................................................................................... 29
+Gambar 29 Dashboard Pengguna Non Advokat .................................................................................... 30
+Gambar 30 Jenis Pendaftaran Perkara .................................................................................................. 31
+Gambar 31 Menu Dashboard Tambah Gugatan.................................................................................... 31
+Gambar 32 Memilih Pengadilan tempat mendaftarkan perkara ........................................................... 32
+Gambar 33 Halaman Pendaftaran Perkara Gugatan ............................................................................. 32
+Gambar 34 Mengisi Data Pihak ............................................................................................................. 33
+Gambar 35 Field Tambah Pihak ............................................................................................................. 33
+Gambar 36 Halaman Upload Berkas Gugatan ....................................................................................... 34
+Gambar 37 Persetujuan Prinsipal .......................................................................................................... 34
+Gambar 38 Komponen Taksiran Biaya Panjar........................................................................................ 35
+Gambar 39 e-SKUM dari e-Court ........................................................................................................... 35
+Gambar 40 Halaman Penyelesaian Pembayaran dengan Virtual Account ............................................ 36
+Gambar 41 Pemberitahuan Email VA .................................................................................................... 36
+Gambar 42 Halaman Verifikasi Berhasil dan Mendapatkan Nomor Perkara ......................................... 37
+Gambar 43 Email E-Filing Verifikasi ....................................................................................................... 38
+Gambar 44 E-Summons ......................................................................................................................... 38
+                                                                                                                    Buku Panduan
+                                                                                                  e-Court Mahkamah Agung 2019 |5
+
+Gambar 45 Persidangan elektronik ....................................................................................................... 39
+Gambar 46 Detil Pendaftaran Gugatan ................................................................................................. 40
+Gambar 47 Detil Pendaftaran Gugatan ................................................................................................. 40
+Gambar 48 Detil Persidangan ................................................................................................................ 41
+Gambar 49 Detil Dokumen .................................................................................................................... 41
+Gambar 50 Dashboard Pengadilan Tingkat Banding ............................................................................. 42
+Gambar 51 Menu Edit Profile ................................................................................................................ 43
+Gambar 52 Profile Pengguna ................................................................................................................. 43
+Gambar 53 Form Edit Pengguna ........................................................................................................... 43
+Gambar 54 Tambah Data Advokat ........................................................................................................ 44
+Gambar 55 Field Tambah Data Advokat ................................................................................................ 44
+Gambar 56 List Daftar Advokat ............................................................................................................. 45
+Gambar 57 Detil Advokat ...................................................................................................................... 45
+Gambar 58 Halaman Verifikasi Data Advokat ........................................................................................ 45
+Gambar 59 Validasi Daftar Advokat....................................................................................................... 46
+Gambar 60 Status Terverfikasi Advokat ................................................................................................ 46
+Gambar 61 Menu Ubah Pengguna ........................................................................................................ 47
+Gambar 62 Halaman Dashboard ........................................................................................................... 48
+Gambar 63 Menu Edit Profile ................................................................................................................ 49
+Gambar 64 Profile Pengguna ................................................................................................................. 49
+Gambar 65 Form Edit Pengguna ........................................................................................................... 50
+Gambar 66 Konfigurasi Pengadilan ....................................................................................................... 51
+Gambar 67 Konfigurasi Bank ................................................................................................................. 51
+Gambar 68 Konfigurasi Google Mail ...................................................................................................... 51
+Gambar 69 Tambah Pengguna ECourt .................................................................................................. 52
+Gambar 70 List Daftar Pengguna ........................................................................................................... 53
+Gambar 71 Halaman Komponen Biaya Panjar ....................................................................................... 53
+Gambar 72 Tambah Biaya Gugatan ....................................................................................................... 54
+Gambar 73 Daftar Biaya Panjar ............................................................................................................. 55
+Gambar 74 List Riwayat Pengguna ........................................................................................................ 56
+Gambar 75 Detil Riwayat Pengguna ...................................................................................................... 56
+Gambar 76 Data Radius Panggilan sesuai Wilayah Pengadilan ............................................................. 57
+Gambar 77 Proses Update Data Radius dari Komdanas ........................................................................ 57
+Gambar 78 Menu Tambah Pengguna.................................................................................................... 58
+Gambar 79 Daftar Pengguna Insdentil (Non Advokat) .......................................................................... 58
+Gambar 80 Tambah Pengguna Perseorangan ....................................................................................... 59
+Gambar 81 Tambah Pengguna Pemerintahan....................................................................................... 60
+Gambar 82 Tambah Pengguna Badan Hukum ....................................................................................... 61
+Gambar 83 Upload Dokumen Pengguna Insidentil................................................................................ 62
+Gambar 84 Verifikasi Pengguna Non Advokat ....................................................................................... 62
+Gambar 85 Pesan Username dan Password .......................................................................................... 62
+Gambar 86 Hasil Verifikasi Pengguna Non Advokat .............................................................................. 63
+Gambar 87 Status Belum Verifikasi ....................................................................................................... 63
+Gambar 88 Aktivasi Pengguna Insidentil ............................................................................................... 64
+Gambar 89 Detil Pendaftaran Gugatan ................................................................................................. 64
+Gambar 90 Detil Pendaftaran Gugatan ................................................................................................. 65
+Gambar 91 Tambah Pihak Intervensi .................................................................................................... 66
+                                                                                                                    Buku Panduan
+                                                                                                  e-Court Mahkamah Agung 2019 |6
+
+Gambar 92 Field tambah pihak intervensi............................................................................................. 66
+Gambar 93 Pihak Intervensi .................................................................................................................. 66
+Gambar 94 Tambah Kuasa Hukum Intervensi ....................................................................................... 67
+Gambar 95 Kuasa Hukum Intervensi ..................................................................................................... 67
+Gambar 96 Detil Kuasa Hukum Pihak Intervensi ................................................................................... 67
+Gambar 97 Tombol Tambah Dokumen Intervensi ................................................................................ 68
+Gambar 98 Upload Dokumen Intervensi ............................................................................................... 68
+Gambar 99 Dokumen Intervensi ........................................................................................................... 68
+Gambar 100 Pihak Intervensi Menggunakan Saluran Elektronik ........................................................... 69
+Gambar 101 Detil Persidangan .............................................................................................................. 70
+Gambar 102 Detil Persidangan Verifikasi .............................................................................................. 70
+Gambar 103 Upload Putusan ................................................................................................................ 71
+Gambar 104 Salinan Putusan ................................................................................................................ 71
+Gambar 105 Detil Dokumen .................................................................................................................. 72
+Gambar 104 Menu E-Court ................................................................................................................... 74
+Gambar 105 Daftar Pendaftaran Online yang masuk ke dalam SIPP ..................................................... 74
+Gambar 106 Tombol Register untuk memulai Pendaftaran Baru di SIPP .............................................. 75
+Gambar 107 Formulir Pendaftaran Perkara Gugatan ............................................................................ 75
+Gambar 108 Daftar Perkara Online yang Belum mendapatkan Nomor Perkara ................................... 76
+Gambar 109 Perkara Baru yang didaftarkan melalui Pendaftaran Online ............................................. 76
+Gambar 110 Buku Jurnal Keuangan pada Perkara Baru ........................................................................ 76
+Gambar 111 Status Pendaftaran Online Perkara Terdaftar dengan Nomor Perkara ............................. 77
+Gambar 112 Notifikasi Pendaftaran Berhasil yang dikirim ke email Pendaftar ..................................... 77
+Gambar 115 Halaman Dashboard ......................................................................................................... 78
+Gambar 116 Menu Edit Profile .............................................................................................................. 79
+Gambar 117 Profile Pengguna............................................................................................................... 79
+Gambar 118 Form Edit Pengguna ......................................................................................................... 80
+Gambar 119 Daftar Perkara................................................................................................................... 80
+Gambar 120 Detil Pendaftaran Gugatan ............................................................................................... 81
+Gambar 121 Detil Pendaftaran Gugatan ............................................................................................... 81
+Gambar 122 Detil Persidangan .............................................................................................................. 82
+Gambar 123 Detil Persidangan Verifikasi .............................................................................................. 83
+Gambar 124 Upload Putusan ................................................................................................................ 83
+Gambar 11 Salinan Putusan .................................................................................................................. 84
+Gambar 12 Detil Dokumen .................................................................................................................... 84
+                                                                                  Buku Panduan
+PENDAFTARAN PERKARA                                             e-Court Mahkamah Agung 2019 |7
+
+PENGGUNA TERDAFTAR
+                                PENGGUNA TERDAFTAR (ADVOKAT)
+
+
+      1. Definisi dan Pengertian
+         e-Court adalah sebuah instrumen Pengadilan sebagai bentuk pelayanan terhadap
+         masyarakat dalam hal Pendaftaran perkara secara online, Taksiran Panjar Biaya secara
+         elektronik, Pembayaran Panjar Biaya secara online, Pemanggilan secara online dan
+         Persidangan secara online mengirim dokumen persidangan (Replik, Duplik, Kesimpulan,
+         Jawaban). Aplikasi e-Court perkara diharapkan mampu meningkatkan pelayanan dalam
+         fungsinya menerima pendaftaran perkara secara online dimana masyarakat akan
+         menghemat waktu dan biaya saat melakukan pendaftaran perkara. Ruang Lingkup
+         aplikasi e-Court adalah sebagai berikut :
+         1.1. Pendaftaran Perkara Online (e-Filing)
+            Pendaftaran Perkara Online dalam aplikasi e-Court untuk saat ini baru dibuka jenis
+            pendaftaran untuk perkara gugatan, bantahan, gugatan sederhana, dan
+            permohonan. Pendaftaran Perkara ini adalah jenis perkara yang didaftarkan di
+            Peradilan Umum, Peradilan Agama dan Peradilan TUN yang dalam pendaftarannya
+            memerlukan effort atau usaha yang lebih, dan hal ini yang menjadi alasan untuk
+            membuat e-Court salah satunya adalah kemudahan berusaha.
+            Kuntungan Pendaftaran Perkara secara online melalui Aplikasi e-Court yang bisa
+            diperoleh dari aplikasi ini adalah :
+            1. Menghemat Waktu dan Biaya dalam proses pendaftaran perkara.
+            2. Pembayaran Biaya Panjar yang dapat dilakukan dalam saluran multi chanel atau
+                dari berbagai metode pembayaran dan bank.
+            3. Dokumen terarsip secara baik dan dapat diakses dari berbagai lokasi dan media.
+            4. Proses Temu Kembali Data yang lebih cepat
+
+
+         1.2. Pembayaran Panjar Biaya Online (e-Payment)
+             Dalam pendaftaran perkara, pengguna terdaftar akan langsung mendapatkan
+             SKUM yang digenerate secara elektronik oleh aplikasi e-Court. Dalam proses
+             generate tersebut sudah akan dihitung berdasarkan Komponen Biaya apa saja yang
+                                                                             Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |8
+
+       telah ditetapkan dan dikonfigurasi oleh Pengadilan, dan Besaran Biaya Radius yang
+       juga ditetapkan oleh Ketua Pengadilan sehingga perhitungan taksiran biaya panjar
+       sudah diperhitungkan sedemikian rupa dan menghasilkan elektronik SKUM atau e-
+       SKUM.
+       Pengguna Terdaftar setelah mendapatkan Taksiran Panjar atau e-SKUM akan
+       mendapatkan Nomor Pembayaran (Virtual Account) sebagai rekening virtual untuk
+       pembayaran Biaya Panjar Perkara.
+
+
+   1.3. Pemanggilan Elektronik (e-Summons)
+      Sesuai dengan Perma No.3 Tahun 2018 bahwa Pemanggilan yang pendaftarannya
+      dilakukan dengan menggunakan e-Court, maka pemanggilan kepada Pengguna
+      Terdaftar dilakukan dilakukan secara elektronik yang dikirimkan ke alamat domisili
+      elektronik pengguna terdaftar. Akan tetapi untuk pihak tergugat untuk
+      pemanggilan pertama dilakukan dengan manual dan pada saat tergugat hadir pada
+      persidangan yang pertama akan diminta persetujuan apakah setuju dipanggilan
+      secara elektronik atau tidak, jika setuju maka akan pihak tergugat akan dipanggil
+      secara elektronik sesuai dengan domisili elektronik yang diberikan dan apabila tidak
+      setuju pemanggilan dilakukan secara manual seperti biasa
+
+
+   1.4. Persidangan Elektronik (e-Litigasi)
+      Aplikasi e-Court juga mendukung dalam hal persidangan secara elektronik sehingga
+      dapat dilakukan pengiriman dokumen persidangan seperti Replik, Duplik,
+      Kesimpulan dan atau Jawaban secara elektronik yang dapat diakses oleh Pengadilan
+      dan para pihak.
+
+
+2. Pendaftaran Perkara Pengguna Terdaftar (Advokat)
+   Sebelum melakukan pendaftaran syarat wajib yang harus dilakukan adalah harus
+   memiliki akun pada aplikasi e-Court. Untuk melakukan pendaftaran melalui e-Court
+   yang dilakukan pertama kali adalah membuka website e-Court Mahkamah Agung di
+   https://eCourt.mahkamahagung.go.id dan menekan tombol Register Pengguna
+   Terdaftar.
+                                                                              Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |9
+
+Selanjutnya akan tampil halaman pendaftaran akun pengguna terdaftar sebagai berikut
+:
+
+
+
+
+                 Gambar 1 Halaman Register Akun Pengguna Terdaftar
+
+Dalam pendaftaran Pengguna Terdaftar harus dimasukkan alamat email yang valid
+karena aktivasi akun akan dikirimkan melalui email yang didaftarkan yang nantinya akan
+menjadi alamat domisili elektronik pengguna terdaftar.
+Apabila pendaftaran berhasil pengguna terdaftar akan mendapatkan email user dan
+password yang telah dibuatnya dan dapat digunakan untuk login pada aplikasi e-Court.
+
+
+2.1. Login
+Login pada aplikasi e-Court dapat dilakukan pada tombol Login halaman pertama e-Court.
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |10
+
+
+
+
+                        Gambar 2 Halaman Utama e-Court
+
+
+
+
+                            Gambar 3 Halaman Login
+
+Setelah berhasil login untuk pertama kali login, pengguna terdaftar harus melengkapi
+data Advokat. Pengguna Terdaftar untuk saat ini bisa dilakukan oleh Advokat, tetapi
+untuk pengguna terdaftar lain dari Perseorangan, Pemerintah atau Badan Hukum
+sudah bisa juga mengakses e-Court dengan melakukan pendaftaran melalui datang ke
+pengadilan.
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |11
+
+
+
+
+                           Gambar 4 Data Advokat Pendaftaran
+
+Dalam melengkapi Data Advokat juga jarus melengkapi dengan dokumen Advokat
+sesuai persyaratan yang telah diatur pada Perma No. 3 Tahun 2018 yaitu KTP, Berita
+Acara Sumpah dan Kartu Tanda Anggota (KTA).
+Dengan melengkapi data Advokat yang benar untuk pendaftaran akun pengguna
+terdaftar telah selesai dilakukan, akan tetapi untuk bisa beracara dengan menggunakan
+e-Court harus menunggu verifikasi dan validiasi oleh Pengadilan Tingkat Banding
+dimana Advokat tersebut disumpah.
+
+
+2.2. Dashoboard Pengguna Terdaftar
+Pada dashboard e-Court berisi tampilan yang lebih informatif dan merupakan sebuah
+informasi yang diberikan kepada pengguna terdaftar. Dalam dashboard tersebut
+terdapat sebuah beberapa kolom yang berisi informasi mengenai keadaan data perkara
+yang telah didaftarkan oleh Pengguna Terdaftar melalui e-Court, diantaranya informasi
+: ‘Info Perkara Gugatan’, ‘Info Perkara Bantahan’, ‘Info Gugatan Sederhana’, dan ‘Info
+Perkara Pendaftaran Permohonan’. Dari kesemua itu memiliki info masing-masing yaitu
+Perkara yang Berhasil Mendapatkan Nomor, Pendaftaran Sudah Dibayar, Pendaftaran
+Belum Dibayar, dan Total dari Keseluruhan Perkara sehingga bisa dijadikan pengingat
+untuk Pengguna Terdaftar tentang perkara yang telah didaftarkan.
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |12
+
+
+
+
+                       Gambar 5 Dashboard Pengguna Terdaftar
+
+
+2.3. Pendaftaran Perkara
+Setelah Pengguna Terdaftar dinyatakan terverifikasi dan valid sebagai Advokat oleh
+Pengadilan Tingkat Banding dimana advokat tersebut disumpah, maka berikutnya
+adalah Pendaftaran Perkara.
+Tahapan Pendaftaran Perkara melalui e-Court adalah sebagai berikut :
+
+
+a) Memilih Pengadilan
+    Pengguna terpilih (advokat) memilih menu dari Pendaftaran Perkara dan memilih
+    sesuai dengan kebutuhan jenis perkara yaitu Gugatan Online, Bantahan Online,
+    Gugatan Sederhana Online, dan Permohonan Online. Apabila advokat sudah
+    memilih jenis perkara yang didaftarkan maka selanjutnya pilih Tambah Gugatan.
+                                                                       Buku Panduan
+                                                    e-Court Mahkamah Agung 2019 |13
+
+
+
+
+                      Gambar 6 Jenis Pendaftaran Perkara
+
+
+
+
+                   Gambar 7 Menu Dashboard Tambah Gugatan
+
+Pada Dashboard bagian Pendaftaran terdapat filter pemisahan status pembayaran
+yaitu status Sudah Dibayar, Belum Dibayar dan Kadaluwarsa sehingga memudahkan
+Pengguna untuk melihat status perkaranya. Ketika pengguna ingin menambakan
+perkara sesuai dengan jenisnya, pengguna memilih pengadilan tujuan untuk
+mendaftarkan perkaranya.
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |14
+
+
+
+
+              Gambar 8 Memilih Pengadilan tempat mendaftarkan perkara
+
+   Advokat dapat beracara di Pengadilan yang telah membuka layanan e-Court dan
+   dalam hal ini Pengadilan yang membuka layanan e-Court tidak serempak di
+   Indonesia akan tetapi bagi yang sudah dinyatakan siap oleh Dirjen masing-masing.
+
+b) Mendapatkan Nomor Register Online (Bukan Nomor Perkara)
+   Pada tahapan awal, setelah memilih Pengadilan pengguna terdaftar akan
+   mendapatkan Nomor Register Online dan Barcode akan tetapi bukan Nomor
+   Perkara.
+
+
+
+
+                   Gambar 9 Halaman Pendaftaran Perkara Gugatan
+
+   Setelah memahami dan menyetyujui syarat dan ketentuan dalam pendaftaran
+   online melalui e-Court, tekan Tombol Daftar.
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |15
+
+
+
+
+c)   Pendaftaran Kuasa
+     Pendaftaran Surat Kuasa adalah bagian dari tahapan dimana Advokat atau
+     Pengguna terdaftar harus mengupload Surat Kuasa sebelum melanjutkan
+     pendaftaran perkara. Syarat Pendaftaran Lain dalam beracara seperti Berita Acara
+     Sumpah, KTP dan Kartu Anggota Advokat tidak perlu dicantumkan lagi karena
+     sudah akan selalu terlampirkan setiap pendaftaran perkara. Dokumen seperti
+     Berita Acara Sumpah, KTP dan KTA sudah didaftar saat pendaftaran akun pengguna
+     terdaftar.
+
+
+
+
+                     Gambar 10 Halaman Pendaftaan Surat Kuasa
+
+d) Mengisi Data Pihak
+     Mengisi Data Pihak adalah menjadi hal wajib dalam pendaftaran perkara dan dalam
+     pengisian data pihak ini akan mengisi alamat pihak baik penggugat, tergugat, dan
+     turut tergugat sehingga dapat memilih lokasi Provinsi, Kabupaten dan Kecamatan.
+     Dengan melengkapi data alamat maka biaya panjar dapat ditaksirkan sesuai
+     besaran radius masing-masing wilayah pengadilan sesuai ketetapan Ketua
+     Pengadilan.
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |16
+
+
+
+
+                         Gambar 11 Mengisi Data Pihak
+   Pengguna selanjutnya menambahkan data pihak yang berperkara yaitu Penggugat,
+   Tergugat dan Turut Tergugat (jika ada)
+
+
+
+
+                         Gambar 12 Field Tambah Pihak
+
+e) Upload Berkas Gugatan
+   Tahapan berikutnya adalah melengkapi Dokumen Gugatan yang harus diupload
+   pada tahapan Upload Berkas. Berkas Gugatan dan Persetujuan Prinsipal diupload
+   dalam tahapan Upload Berkas Gugatan.
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |17
+
+
+
+
+                 Gambar 13 Halaman Upload Berkas Gugatan
+Ketika pengguna melakukan upload dokumen, jenis dokumen terdapat dua pilihan
+yaitu pdf dan doc/rtf, serta selain itu terdapat form template Persetujuan Prinsipal
+yang berarti menyatakan setuju dan bersedia beracara secara elektronik. Untuk
+bukti awal, bukti yang diupload berbentuk PDF dan bila bukti tersebut lebih dari
+satu file, maka bukti tersebut dapat di rar atau zip-kan.
+
+
+
+
+                      Gambar 14 Persetujuan Prinsipal
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |18
+
+f)   Elektronik SKUM (e-SKUM)
+     Dengan selesainya melengkapi data pendaftaran dan dokumen Pengguna
+     Terdaftar akan mendapatkan taksiran panjar biaya perkara dalam bentuk
+     Elektronik SKUM (e-SKUM) yang digenerate otomatis oleh sistem dengan
+     Komponen Biaya Panjar dan Radius yang telah ditetapkan oleh Ketua Pengadilan.
+     Besaran Taksiran Panjar Biaya Perkara ini sudah diperhitungan dengan rumusan
+     sesuai Penentuan Taksiran Biaya Panjar untuk perkara Gugatan, namun demikian
+     apabila dalam perjalanannya terdapat kekurangan maka akan diberitkan tagihan
+     untuk Tambah Biaya Panjar dan sebaliknya apabila biaya panjar kelebihan akan
+     dikembalikan kepada Pihak yang mendaftar perkara.
+
+
+
+
+                    Gambar 15 Komponen Taksiran Biaya Panjar
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |19
+
+
+
+
+                           Gambar 16 e-SKUM dari e-Court
+
+     Ketika Pengguna telah mendapatkan e-SKUM untuk melakukan pembayarannya,
+     selanjutnya user memilih tombol ‘Lanjut Pembayaran’.
+
+
+g)   Pembayaran (e-Payment)
+     Pengguna Terdaftar setelah mendapatkan Taksiran Panjar atau e-SKUM akan
+     mendapatkan Nomor Pembayaran (Virtual Account) sebagai rekening virtual untuk
+     pembayaran Biaya Panjar Perkara.
+
+
+
+
+          Gambar 17 Halaman Penyelesaian Pembayaran dengan Virtual Account
+     Ketika user sudah mendapatkan nomor Virtual Account dari perkara yang telah
+     didaftarkan, maka pemberitahuan tersebut akan masuk kedalam email yang
+     didaftarkan sebelumnya.
+     Email Pemberitahuan bahwa status pendaftaran, dan email tagihan dan besaran
+     biaya panjar yang harus dibayarkan.
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |20
+
+
+
+
+                       Gambar 18 Pemberitahuan Email VA
+
+   Setelah dilakukan pembayaran otomatis status dari pendaftaran akan berubah.
+   Untuk tahapan pendaftaran perkara sudah selesai berikutnya adalah Pengguna
+   Terdaftar menunggu verifikasi dan validasi yang dilakukan oleh Pengadilan untuk
+   Mendapatkan Nomor Perkara.
+
+h) Mendapatkan Nomor Perkara
+   Pengadilan baru akan mendapatkan notifikasi atau pemberitahuan disaat
+   Pendaftaran Perkara sudah dilakukan pembayaran kemudian Pengadilan akan
+   melakukan verifikasi dan validasi dilanjutkan dengan mendaftarkan Perkara di SIPP
+   (Sistem Informasi Penelusuran Perkara) yang merupakan aplikasi manajemen
+   administrasi perkara di Pengadilan sehingga akan otomatis mendapatkan Nomor
+   Perkara dan melalui SIPP akan otomatis mengirimkan informasi pendaftaran
+   perkara berhasil melalui e-Court dan SIPP. Apabila Pengadilan telah selesai
+   memverifikasi pendaftaran kemudian mendapatkan Nomor Perkara maka halaman
+   verifikasi akan berubah sebagai berikut :
+                                                                                 Buku Panduan
+                                                              e-Court Mahkamah Agung 2019 |21
+
+
+
+
+       Gambar 19 Halaman Verifikasi Berhasil dan Mendapatkan Nomor Perkara
+
+   Dengan mendapatkan Nomor Perkara Tahapan Pendaftaran Perkara Online Telah
+   Selesai, dan menunggu pemanggilan dari Pengadilan. Pendaftaran Berhasil ini juga
+   akan mendapatkan email pemberitahuan sehingga diharapkan informasinya cepat
+   sampai kepada Pengguna Terdaftar.
+
+
+
+
+                        Gambar 20 Email E-Filing Verifikasi
+
+i) Mendapatkan Panggilan Elektronik (e-Summons)
+   Setelah pengguna melakukan pembayaran dan mendapat nomor perkara dari yang
+   telah didaftarkan tersebut maka akan mendapat sebuah panggilan persidangan
+   yang dikirim oleh pihak pengadilan tempat pendaftaran perkara.
+                                                                          Buku Panduan
+                                                       e-Court Mahkamah Agung 2019 |22
+
+
+
+
+                             Gambar 21 E-Summons
+
+j) Persidangan Elektronik (e-Litigasi)
+   Setelah pengguna mendapatkan panggilan elektronik selanjutnya dilakukan
+   persidangan elektronik. Dalam persidangan ini pihak penggugat dan tergugat telah
+   setuju melakukan persidangan elektronik dengan mengisi persetujuan prinsipal
+   (sudah dijelaskan diatas) maka para pihak bisa melakukannya sesuai dengan e-
+   Summons yang telah dikirimkan.
+   Pada e-Litigasi ini acara persidangan secara Elektronik oleh para pihak dimulai dari
+   acara Jawaban, Replik, Duplik dan Kesimpulan. Untuk jadwal persidangan sudah
+   terintegrasi dengan Tundaan Sidang di SIPP. Dokumen dikirim setelah terdapat
+   tundaan sidang dan ditutup sesuai jadwal sidang. Untuk mekanisme kontrol
+   (menerima, memeriksa, meneruskan) dari semua dokumen yang diupload para
+   pihak dilakukan oleh majelis hakim/hakim yang berarti ketika kedua belah pihak
+   mengirimkan dokumen dan selama belum diverifikasi oleh majelis/hakim kedua
+   belah pihak tidak dapat melihat atau mendownload dokumen yang dikirim oleh
+   pihak lawan.
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |23
+
+
+
+
+                         Gambar 22 Persidangan elektronik
+
+
+2.4. Detil Pendaftaran Perkara Pengguna Terdaftar (Advokat)
+Setelah pengguna melakukan semua rangkaian pendaftaran hingga persidangan secara
+elektronik dapat melihat ringkasan / detil perkara yang telah dilakukan. Pengguna dapat
+memilih Nomor Perkara pada kolom Kode & Tanggal Register dalam menu Pendaftaran
+Perkara. Dari Nomor Perkara yang terpilih muncul semua informasi yang terdiri dari tiga
+bagian yaitu Pendaftaran, Persidangan, dan Dokumen.
+
+
+
+
+                       Gambar 23 Detil Pendaftaran Gugatan
+Dalam bagian Pendaftaran terdapat informasi Pendaftaran Perkara, Pembayaran,
+Persetujuan Pihak Menggunakan Saluran Elektronik (persetujuan Prinsipal), Panggilan,
+serta Biaya Perkara.
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |24
+
+
+
+
+                       Gambar 24 Detil Pendaftaran Gugatan
+Pada bagian Persidangan berisi history jalannya sidang antar pihak.
+
+
+
+
+                           Gambar 25 Detil Persidangan
+
+
+Pada bagian Dokumen berisi dokumen-dokumen yang terjadi selama persidangan antar
+pihak. Status dokumen dibagi menjadi dua yaitu yang terkunci dan tidak terkunci, yang
+                                                                          Buku Panduan
+                                                       e-Court Mahkamah Agung 2019 |25
+
+tidak terkunci berarti dokumen tersebut bisa diakses atau didownload dan sudah
+diverifikasi oleh majelis hakim sehingga bisa dilihat oleh pihak lawan. Apabila dokumen
+tersebut terkunci berarti dokumen tersebut belum diverifikasi oleh majelis hakim.
+
+
+
+
+                            Gambar 26 Detil Dokumen
+PENDAFTARAN PERKARA                                                                Buku Panduan
+                                                                e-Court Mahkamah Agung 2019 |26
+
+PENGGUNA INSINDENTIL
+                          PENGGUNA INSIDENTIL (NON ADVOKAT)
+
+
+   3. Definisi dan Pengertian
+      Dalam seiring perkembangannya e-Court, aplikasi ini tidak hanya digunakan oleh
+      pengguna terdaftar (advokat) saja tetapi juga untuk pengguna insidentil (pengguna non
+      advokat). Pengguna insidentil ini terdiri dari perseorangan, pemerintahan, dan badan
+      hukum. Pada dasarnya Pengguna ini merupakan termasuk pengguna e-Court
+      temporary , pengunaan account untuk pengguna insidentil hanya berlaku saat beracara
+      secara elektronik untuk satu kali dan 14 hari setelah tanggal putusan, user tidak bisa
+      lagi mengakses data perkaranya. Untuk menggunakan kembali harus dilakukan aktivasi
+      kembali oleh Pengadilan. Kesemua Pengguna insidentil ini mempunya mekanisme
+      kebutuhan data yang berbeda-beda ketika melakukan pendaftaran, pendaftarannya
+      tersebut dilakukan di pengadilan setempat/tertuju untuk terdaftar dalam aplikasi E-
+      Court.   e-Court adalah sebuah instrumen Pengadilan sebagai bentuk pelayanan
+      terhadap masyarakat dalam hal Pendaftaran perkara secara online, Taksiran Panjar
+      Biaya secara elektronik, Pembayaran Panjar Biaya secara online, Pemanggilan secara
+      online dan Persidangan secara online mengirim dokumen persidangan (Replik, Duplik,
+      Kesimpulan, Jawaban). Aplikasi e-Court perkara diharapkan mampu meningkatkan
+      pelayanan dalam fungsinya menerima pendaftaran perkara secara online dimana
+      masyarakat akan menghemat waktu dan biaya saat melakukan pendaftaran perkara.
+      Ruang Lingkup aplikasi e-Court adalah sebagai berikut :
+      3.1. Pendaftaran Perkara Online (e-Filing)
+         Pendaftaran Perkara Online dalam aplikasi e-Court untuk saat ini baru dibuka jenis
+         pendaftaran untuk perkara gugatan, bantahan, gugatan sederhana, dan
+         permohonan. Pendaftaran Perkara ini adalah jenis perkara yang didaftarkan di
+         Peradilan Umum, Peradilan Agama dan Peradilan TUN yang dalam pendaftarannya
+         memerlukan effort atau usaha yang lebih, dan hal ini yang menjadi alasan untuk
+         membuat e-Court salah satunya adalah kemudahan berusaha.
+         Kuntungan Pendaftaran Perkara secara online melalui Aplikasi e-Court yang bisa
+         diperoleh dari aplikasi ini adalah :
+                                                                          Buku Panduan
+                                                       e-Court Mahkamah Agung 2019 |27
+
+   1. Menghemat Waktu dan Biaya dalam proses pendaftaran perkara.
+   2. Pembayaran Biaya Panjar yang dapat dilakukan dalam saluran multi chanel atau
+       dari berbagai metode pembayaran dan bank.
+   3. Dokumen terarsip secara baik dan dapat diakses dari berbagai lokasi dan media.
+   4. Proses Temu Kembali Data yang lebih cepat
+
+
+3.2. Pembayaran Panjar Biaya Online (e-Payment)
+    Dalam pendaftaran perkara, Pengguna insidentil akan langsung mendapatkan
+    SKUM yang digenerate secara elektronik oleh aplikasi e-Court. Dalam proses
+    generate tersebut sudah akan dihitung berdasarkan Komponen Biaya apa saja yang
+    telah ditetapkan dan dikonfigurasi oleh Pengadilan, dan Besaran Biaya Radius yang
+    juga ditetapkan oleh Ketua Pengadilan sehingga perhitungan taksiran biaya panjar
+    sudah diperhitungkan sedemikian rupa dan menghasilkan elektronik SKUM atau e-
+    SKUM.
+    Pengguna Pengguna insidentil setelah mendapatkan Taksiran Panjar atau e-SKUM
+    akan mendapatkan Nomor Pembayaran (Virtual Account) sebagai rekening virtual
+    untuk pembayaran Biaya Panjar Perkara.
+
+
+3.3. Pemanggilan Elektronik (e-Summons)
+   Sesuai dengan Perma No.3 Tahun 2018 bahwa Pemanggilan yang pendaftarannya
+   dilakukan dengan menggunakan e-Court, maka pemanggilan kepada Pengguna
+   insidentil dilakukan dilakukan secara elektronik yang dikirimkan ke alamat domisili
+   elektronik pengguna terdaftar. Akan tetapi untuk pihak tergugat untuk
+   pemanggilan pertama dilakukan dengan manual dan pada saat tergugat hadir pada
+   persidangan yang pertama akan diminta persetujuan apakah setuju dipanggilan
+   secara elektronik atau tidak, jika setuju maka akan pihak tergugat akan dipanggil
+   secara elektronik sesuai dengan domisili elektronik yang diberikan dan apabila tidak
+   setuju pemanggilan dilakukan secara manual seperti biasa
+                                                                                  Buku Panduan
+                                                               e-Court Mahkamah Agung 2019 |28
+
+   3.4. Persidangan Elektronik (e-Litigasi)
+      Aplikasi e-Court juga mendukung dalam hal persidangan secara elektronik sehingga
+      dapat dilakukan pengiriman dokumen persidangan seperti Replik, Duplik,
+      Kesimpulan dan atau Jawaban secara elektronik yang dapat diakses oleh Pengadilan
+      dan para pihak.
+
+
+4. Pendaftaran Perkara Pengguna Insidentil
+   Sebelum melakukan pendaftaran syarat wajib yang harus dilakukan adalah harus
+   memiliki akun pada aplikasi e-Court. Setelah Pengguna insidentil terdaftar di
+   pengadilan dan mendapatkan account untuk mengkases-nya maka user sudah
+   dinyatakan dapat melakukan pendaftaran perkara secara elektronik. Untuk melakukan
+   pendaftaran perkara melalui e-Court yang dilakukan pertama kali adalah membuka
+   website e-Court Mahkamah Agung di https://ecourt.mahkamahagung.go.id dan
+   menekan tombol Login dengan memasukkan username dan password yang telah
+   didapat.
+
+
+   4.1.Login
+       Login pada aplikasi e-Court dapat dilakukan pada tombol Login halaman pertama
+       e-Court.
+
+
+
+
+                             Gambar 27 Halaman Utama e-Court
+                                                                          Buku Panduan
+                                                       e-Court Mahkamah Agung 2019 |29
+
+
+
+
+                            Gambar 28 Halaman Login
+
+
+
+4.2.Dashboard Pengguna Insidentil
+Pada dashboard e-Court berisi tampilan yang lebih informatif dan merupakan sebuah
+informasi yang diberikan kepada pengguna insidentil (non advokat). Dalam dashboard
+tersebut terdapat sebuah beberapa kolom yang berisi informasi mengenai keadaan
+data perkara yang telah didaftarkan oleh Pengguna Terdaftar melalui e-Court,
+diantaranya informasi : ‘Info Perkara Gugatan’, ‘Info Perkara Bantahan’, ‘Info Gugatan
+Sederhana’, dan ‘Info Perkara Pendaftaran Permohonan’. Dari kesemua itu memiliki info
+masing-masing yaitu Perkara yang Berhasil Mendapatkan Nomor, Pendaftaran Sudah
+Dibayar, Pendaftaran Belum Dibayar, dan Total dari Keseluruhan Perkara sehingga bisa
+dijadikan pengingat untuk Pengguna Terdaftar tentang perkara yang telah didaftarkan.
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |30
+
+
+
+
+                        Gambar 29 Dashboard Pengguna Non Advokat
+
+
+
+4.3.Pendaftaran Perkara
+Setelah Pengguna Insidentil (non Advokat) bisa melakukan login, maka berikutnya
+adalah Pendaftaran Perkara.
+Tahapan Pendaftaran Perkara melalui e-Court adalah sebagai berikut (pada modul ini
+diberikan contoh untuk pendaftaran perkara Gugatan Online) :
+
+a) Memilih Pengadilan
+    Pengguna Insidentil (non Advokat) memilih menu dari Pendaftaran Perkara dan
+    memilih sesuai dengan kebutuhan jenis perkara yaitu Gugatan Online, Bantahan
+    Online, Gugatan Sederhana Online, dan Permohonan Online. Apabila advokat
+    sudah memilih jenis perkara yang didaftarkan maka selanjutnya pilih Tambah
+    Gugatan.
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |31
+
+
+
+
+                  Gambar 30 Jenis Pendaftaran Perkara
+
+
+
+
+                  Gambar 31 Menu Dashboard Tambah Gugatan
+
+Pada Dashboard bagian Pendaftaran terdapat filter pemisahan status pembayaran
+yaitu status Sudah Dibayar, Belum Dibayar dan Kadaluwarsa sehingga memudahkan
+Pengguna untuk melihat status perkaranya. Ketika pengguna ingin menambakan
+perkara sesuai dengan jenisnya, pengguna memilih pengadilan tujuan untuk
+mendaftarkan perkaranya.
+                                                                                Buku Panduan
+                                                             e-Court Mahkamah Agung 2019 |32
+
+
+
+
+                Gambar 32 Memilih Pengadilan tempat mendaftarkan perkara
+
+     Pengguna insidentil dapat beracara di Pengadilan yang telah membuka layanan e-
+     Court dan dalam hal ini Pengadilan yang membuka layanan e-Court tidak serempak
+     di Indonesia akan tetapi bagi yang sudah dinyatakan siap oleh Dirjen masing-
+     masing.
+
+b) Mendapatkan Nomor Register Online (Bukan Nomor Perkara)
+     Pada tahapan awal, setelah memilih Pengadilan pengguna insidentil akan
+     mendapatkan Nomor Register Online dan Barcode akan tetapi bukan Nomor
+     Perkara.
+
+
+
+
+                     Gambar 33 Halaman Pendaftaran Perkara Gugatan
+
+     Setelah memahami dan menyetyujui syarat dan ketentuan dalam pendaftaran
+     online melalui e-Court, tekan Tombol Daftar.
+
+c)   Mengisi Data Pihak
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |33
+
+   Mengisi Data Pihak adalah menjadi hal wajib dalam pendaftaran perkara dan dalam
+   pengisian data pihak ini akan mengisi alamat pihak baik penggugat, tergugat, dan
+   turut tergugat sehingga dapat memilih lokasi Provinsi, Kabupaten dan Kecamatan.
+   Dengan melengkapi data alamat maka biaya panjar dapat ditaksirkan sesuai
+   besaran radius masing-masing wilayah pengadilan sesuai ketetapan Ketua
+   Pengadilan.
+
+
+
+
+                         Gambar 34 Mengisi Data Pihak
+   Pengguna selanjutnya menambahkan data pihak yang berperkara yaitu Penggugat,
+   Tergugat dan Turut Tergugat (jika ada)
+
+
+
+
+                         Gambar 35 Field Tambah Pihak
+
+d) Upload Berkas Gugatan
+   Tahapan berikutnya adalah melengkapi Dokumen Gugatan yang harus diupload
+   pada tahapan Upload Berkas. Berkas Gugatan dan Persetujuan Prinsipal diupload
+   dalam tahapan Upload Berkas Gugatan.
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |34
+
+
+
+
+                   Gambar 36 Halaman Upload Berkas Gugatan
+   Ketika pengguna melakukan upload dokumen, jenis dokumen terdapat dua pilihan
+   yaitu pdf dan doc/rtf, serta selain itu terdapat form template Persetujuan Prinsipal
+   yang berarti menyatakan setuju dan bersedia beracara secara elektronik
+
+
+
+
+                        Gambar 37 Persetujuan Prinsipal
+
+e) Elektronik SKUM (e-SKUM)
+   Dengan selesainya melengkapi data pendaftaran dan dokumen Pengguna
+   Insidentil akan mendapatkan taksiran panjar biaya perkara dalam bentuk
+   Elektronik SKUM (e-SKUM) yang digenerate otomatis oleh sistem dengan
+   Komponen Biaya Panjar dan Radius yang telah ditetapkan oleh Ketua Pengadilan.
+                                                                       Buku Panduan
+                                                    e-Court Mahkamah Agung 2019 |35
+
+Besaran Taksiran Panjar Biaya Perkara ini sudah diperhitungan dengan rumusan
+sesuai Penentuan Taksiran Biaya Panjar untuk perkara Gugatan, namun demikian
+apabila dalam perjalanannya terdapat kekurangan maka akan diberitkan tagihan
+untuk Tambah Biaya Panjar dan sebaliknya apabila biaya panjar kelebihan akan
+dikembalikan kepada Pihak yang mendaftar perkara.
+
+
+
+
+               Gambar 38 Komponen Taksiran Biaya Panjar
+
+
+
+
+                    Gambar 39 e-SKUM dari e-Court
+
+Ketika Pengguna telah mendapatkan e-SKUM untuk melakukan pembayarannya,
+selanjutnya user memilih tombol ‘Lanjut Pembayaran’.
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |36
+
+f)   Pembayaran (e-Payment)
+     Pengguna Insidentil setelah mendapatkan Taksiran Panjar atau e-SKUM akan
+     mendapatkan Nomor Pembayaran (Virtual Account) sebagai rekening virtual untuk
+     pembayaran Biaya Panjar Perkara.
+
+
+
+
+          Gambar 40 Halaman Penyelesaian Pembayaran dengan Virtual Account
+     Ketika user sudah mendapatkan nomor Virtual Account dari perkara yang telah
+     didaftarkan, maka pemberitahuan tersebut akan masuk kedalam email yang
+     didaftarkan sebelumnya.
+     Email Pemberitahuan bahwa status pendaftaran, dan email tagihan dan besaran
+     biaya panjar yang harus dibayarkan.
+
+
+
+
+                         Gambar 41 Pemberitahuan Email VA
+
+     Setelah dilakukan pembayaran otomatis status dari pendaftaran akan berubah.
+     Untuk tahapan pendaftaran perkara sudah selesai berikutnya adalah Pengguna
+     Insidentil menunggu verifikasi dan validasi yang dilakukan oleh Pengadilan untuk
+     Mendapatkan Nomor Perkara.
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |37
+
+g)   Mendapatkan Nomor Perkara
+     Pengadilan baru akan mendapatkan notifikasi atau pemberitahuan disaat
+     Pendaftaran Perkara sudah dilakukan pembayaran kemudian Pengadilan akan
+     melakukan verifikasi dan validasi dilanjutkan dengan mendaftarkan Perkara di SIPP
+     (Sistem Informasi Penelusuran Perkara) yang merupakan aplikasi manajemen
+     administrasi perkara di Pengadilan sehingga akan otomatis mendapatkan Nomor
+     Perkara dan melalui SIPP akan otomatis mengirimkan informasi pendaftaran
+     perkara berhasil melalui e-Court dan SIPP. Apabila Pengadilan telah selesai
+     memverifikasi pendaftaran kemudian mendapatkan Nomor Perkara maka halaman
+     verifikasi akan berubah sebagai berikut :
+
+
+
+
+         Gambar 42 Halaman Verifikasi Berhasil dan Mendapatkan Nomor Perkara
+
+     Dengan mendapatkan Nomor Perkara Tahapan Pendaftaran Perkara Online Telah
+     Selesai, dan menunggu pemanggilan dari Pengadilan. Pendaftaran Berhasil ini juga
+     akan mendapatkan email pemberitahuan sehingga diharapkan informasinya cepat
+     sampai kepada Pengguna Insidentil.
+                                                                                 Buku Panduan
+                                                              e-Court Mahkamah Agung 2019 |38
+
+
+
+
+                        Gambar 43 Email E-Filing Verifikasi
+
+h) Mendapatkan Panggilan Elektronik (e-Summons)
+   Setelah pengguna melakukan pembayaran dan mendapat nomor perkara dari yang
+   telah didaftarkan tersebut maka akan mendapat sebuah panggilan persidangan
+   yang dikirim oleh pihak pengadilan tempat pendaftaran perkara.
+
+
+
+
+                             Gambar 44 E-Summons
+
+i) Persidangan Elektronik (e-Litigasi)
+   Setelah pengguna mendapatkan panggilan elektronik selanjutnya dilakukan
+   persidangan elektronik. Dalam persidangan ini pihak penggugat dan tergugat telah
+   setuju melakukan persidangan elektronik dengan mengisi persetujuan prinsipal
+   (sudah dijelaskan diatas) maka para pihak bisa melakukannya sesuai dengan e-
+   Summons yang telah dikirimkan.
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |39
+
+    Pada e-Litigasi ini acara persidangan secara Elektronik oleh para pihak dimulai dari
+    acara Jawaban, Replik, Duplik dan Kesimpulan. Untuk jadwal persidangan sudah
+    terintegrasi dengan Tundaan Sidang di SIPP. Dokumen dikirim setelah terdapat
+    tundaan sidang dan ditutup sesuai jadwal sidang. Untuk mekanisme kontrol
+    (menerima, memeriksa, meneruskan) dari semua dokumen yang diupload para
+    pihak dilakukan oleh majelis hakim/hakim yang berarti ketika kedua belah pihak
+    mengirimkan dokumen dan selama belum diverifikasi oleh majelis/hakim kedua
+    belah pihak tidak dapat melihat atau mendownload dokumen yang dikirim oleh
+    pihak lawan.
+
+
+
+
+                         Gambar 45 Persidangan elektronik
+
+
+4.4. Detil Pendaftaran Perkara Pengguna Insidentil
+Setelah pengguna melakukan semua rangkaian pendaftaran hingga persidangan secara
+elektronik dapat melihat ringkasan / detil perkara yang telah dilakukan. Pengguna dapat
+memilih Nomor Perkara pada kolom Kode & Tanggal Register dalam menu Pendaftaran
+Perkara. Dari Nomor Perkara yang terpilih muncul semua informasi yang terdiri dari tiga
+bagian yaitu Pendaftaran, Persidangan, dan Dokumen.
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |40
+
+
+
+
+                       Gambar 46 Detil Pendaftaran Gugatan
+Dalam bagian Pendaftaran terdapat informasi Pendaftaran Perkara, Pembayaran,
+Persetujuan Pihak Menggunakan Saluran Elektronik (persetujuan Prinsipal), Panggilan,
+serta Biaya Perkara.
+
+
+
+
+                       Gambar 47 Detil Pendaftaran Gugatan
+
+
+Pada bagian Persidangan berisi history jalannya sidang antar pihak.
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |41
+
+
+
+
+                           Gambar 48 Detil Persidangan
+
+
+Pada bagian Dokumen berisi dokumen-dokumen yang terjadi selama persidangan antar
+pihak. Status dokumen dibagi menjadi dua yaitu yang terkunci dan tidak terkunci, yang
+tidak terkunci berarti dokumen tersebut bisa diakses atau didownload dan sudah
+diverifikasi oleh majelis hakim sehingga bisa dilihat oleh pihak lawan. Apabila dokumen
+tersebut terkunci berarti dokumen tersebut belum diverifikasi oleh majelis hakim.
+
+
+
+
+                            Gambar 49 Detil Dokumen
+                                                                                          Buku Panduan
+USER LOGIN ADMINISTRATOR PENGADILAN                                    e-Court Mahkamah Agung 2019 |42
+
+          TINGKAT BANDING
+
+                User Login Administrator Pengadilan Tingkat Banding
+
+         User dan Password Administrator Pengadilan Tingkat Banding diberikan oleh Super
+         Administrator Mahkamah Agung dan melakukan Login pada aplikasi e-Court pada domain
+         https://ecourt.mahkamahagung.go.id
+         5. Dashboard Administrator Pengadilan Tingkat Banding
+            Pada dashboard e-Court berisi tampilan yang lebih informatif dan merupakan sebuah
+            informasi yang diberikan kepada petugas pengadilan. Dalam dashboard tersebut
+            terdapat sebuah kolom ‘Pengumuman’ yang berisi informasi dari pimpinan Mahkamah
+            Agung ditujukan kepada Pengadilan serta terdapat beberapa kolom perkara
+            diantaranya informasi : ‘Info Pendaftaran Perkara’ yang dibagi menjadi dua bagian yaitu
+            Berhasil Mendapatkan Nomor Perkara dan Bayar, Belum Mendapatkan Nomor Perkara.
+            Petugas dapat melihat semua data melalui dashboard yang tampil sesuai dengan
+            kondisi perkara saat itu.
+
+
+
+
+                               Gambar 50 Dashboard Pengadilan Tingkat Banding
+
+
+
+            5.1.Membuat email Gmail
+            Pengadilan Tingkat Banding Membuat email Gmail bisa menggunakan nama yang
+            sesuai dengan user yang diberikan, atau bisa juga berbeda kemudian mengupdate user
+            dan email yang ada pada aplikasi e-Court.
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |43
+
+Sebagai contoh user yang diberikan ecourt_pt_semarang@gmail.com dan kemudian
+ingin diganti ecourt.pt.semarang@gmail.com Petugas bisa melakukan login dan melalui
+menu ‘Edit Profil’ dan Ganti Email yang ada. Disarankan untuk mengganti password
+yang diberikan.
+
+
+
+
+                          Gambar 51 Menu Edit Profile
+
+
+
+
+                          Gambar 52 Profile Pengguna
+Petugas Administrator Pengadilan bisa merubah, email, password dan Foto Profil
+melalui tombol ‘Rubah Login Pengguna’. (Disarankan untuk didokumentasi dan
+diberikan kepada pimpinan yang berwenang).
+
+
+
+
+                         Gambar 53 Form Edit Pengguna
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |44
+
+
+
+
+5.2.Daftar Advokat
+Pengadilan Tingkat Banding menginput data Advokat yang pernah disumpah tujuannya
+adalah apabila ada pendaftaran Advokat yang Nomor Berita Acara Sumpah sudah
+sesuai dengan database yang pernah dinput oleh Pengadilan Tingkat Banding, maka
+Pengadilan Tingkat Banding tidak perlu melakukan verifikasi atau vadlidasi terhadap
+pendaftar baru, karena otomatis akan berstatus terverifikasi. Akan tetapi namun
+demikian Pengadilan Tingkat Banding juga masih bisa memverifikasi data Advokat, dan
+apabila ditemukan data tidak sesuai, tetap dapat merubah statusnya menjadi Belum
+terverifikasi. Untuk menambahkan data Advokat petugas pengadilan tingkat Banding
+bisa melakukan penambahan Daftar Advokat secara sistem dan memilih menu ‘+
+Tambah Data Advokat’ untuk menambahkan datanya.
+
+
+
+
+                         Gambar 54 Tambah Data Advokat
+Adapun data yang harus dilengkapi pada field yang telah tersedia, yaitu : Nama Lengkap
+dan gelar, Nomor BA Sumpah, dan Tanggal di Sumpah.
+
+
+
+
+                       Gambar 55 Field Tambah Data Advokat
+Maka secara terotomatis ketika petugas memilih tombol ‘Simpan’ maka akan muncul
+dalam list terdaftar advokat dibawah naungan pengadilan banding tersebut.
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |45
+
+
+
+
+                          Gambar 56 List Daftar Advokat
+Petugas bisa melihat detil dari advokat yang telah ditambahkan dengan memilih tombol
+‘detil’, maka akan muncul sebuah popup
+
+
+
+
+                            Gambar 57 Detil Advokat
+
+
+
+5.3.Verifikasi Data Pengguna Terdaftar
+Saat ini e-Court mengakomidir Data Pengguna Terdaftar untuk Advokat, Validasi Data
+Advokat dilakukan oleh Pengadilan Tingkat Banding dimana Advokat tersebut
+disumpah. Untuk melakukan Validasi Data Advokat oleh Administrator e-Court Tingkat
+Banding dari Menu Advokat – Belum Verifikasi :
+
+
+
+
+                    Gambar 58 Halaman Verifikasi Data Advokat
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |46
+
+Untuk melakukan Verifikasi Data Advokat, langkah-langkahnya adalah sebagai berikut:
+1) Mengecek Nomor Berita Acara Sumpah
+2) Mengecek tiap dokumen
+Apabila data menurut Tim Validasi Data Advokat Pengadilan Tingkat Banding sesuai dan
+dinyatakan valid, petugas cukup memilih tombol Validasi di pada daftar tiap Advokat
+pada kolom paling kanan (kolom ‘Aksi’).
+
+
+
+
+                        Gambar 59 Validasi Daftar Advokat
+Setelah dilakukan validasi, otomatis status berubah menjadi Terverifikasi, dengan
+demikian Advokat yang sudah mendaftar dapat mulai bercara di Pengadilan manapun
+yang sudah membuka layanan e-Court.
+
+
+
+
+                      Gambar 60 Status Terverfikasi Advokat
+
+
+
+5.4.Data Diri Pengguna
+Data Diri Pengguna adalah menu untuk memperbaharui foto profil, email dan Password
+Pengguna. Hal ini sudah dijelas diatas bagaimana memperbaharui Data Pengguna.
+Petugas bisa melakukannya melalui menu Data Diri Pengguna
+                                                  Buku Panduan
+                               e-Court Mahkamah Agung 2019 |47
+
+
+
+
+Gambar 61 Menu Ubah Pengguna
+  USER LOGIN ADMINISTRATOR                                                            Buku Panduan
+                                                                   e-Court Mahkamah Agung 2019 |48
+PENGADILAN TINGKAT PERTAMA #1
+
+       USER LOGIN ADMINISTRATOR PENGADILAN TINGKAT PERTAMA #1
+
+     User dan Password Administrator Pengadilan Tingkat Pertama diberikan oleh Super
+     Administrator Mahkamah Agung dan melakukan Login pada aplikasi e-Court pada domain
+     https://ecourt.mahkamahagung.go.id
+        6. Dashboard Administrator Pengadilan Tingkat Pertama #1
+           Pada dashboard e-Court berisi tampilan yang lebih informatif dan merupakan sebuah
+           informasi yang diberikan kepada petugas pengadilan. Dalam dashboard tersebut
+           terdapat sebuah kolom ‘Pengumuman’ yang berisi informasi dari pimpinan Mahkamah
+           Agung ditujukan kepada Pengadilan serta terdapat beberapa kolom perkara
+           diantaranya informasi : ‘Info Pendaftaran Perkara’ yang dibagi menjadi dua bagian yaitu
+           Berhasil Mendapatkan Nomor Perkara dan Bayar, Belum Mendapatkan Nomor Perkara,
+           selanjutnya informasi ‘Belum Mendapatkan Nomor Perkara’, ‘Belum Melaksanakan e-
+           Summon’, dan ‘Belum ada Persidangan’. Petugas dapat melihat semua data melalui
+           dashboard yang tampil sesuai dengan kondisi perkara saat itu.
+
+
+
+
+                                     Gambar 62 Halaman Dashboard
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |49
+
+
+
+
+6.1.Membuat email Gmail
+Pengadilan Tingkat Pertama membuat email Gmail, bisa menggunakan nama yang
+sesuai dengan user yang diberikan, atau bisa juga berbeda kemudian mengupdate user
+dan email yang ada pada aplikasi e-Court.
+Sebagai contoh user yang diberikan ecourt_pn_mojokerto@gmail.com dan kemudian
+ingin diganti perdata.pnmjk@gmail.com. Petugas bisa melakukan login dan melalui
+menu ‘Edit Profil’ dan Ganti Email yang ada. Disarankan untuk mengganti password
+yang diberikan.
+
+
+
+
+                          Gambar 63 Menu Edit Profile
+
+
+
+
+                           Gambar 64 Profile Pengguna
+
+
+Petugas Administrator Pengadilan bisa merubah, email, password dan Foto Profil
+melalui tombol ‘Rubah Login Pengguna’. (Disarankan untuk didokumentasi dan
+diberikan kepada pimpinan yang berwenang).
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |50
+
+
+
+
+                           Gambar 65 Form Edit Pengguna
+
+
+6.2.Konfigurasi Pengadilan
+Untuk pertama kali seblum e-Court digunakan Pengadilan wajib menupdate Data
+Konfigurasi untuk menampung Informasi Profil Pengadilan. Dari Menu Konfigurasi
+Aplikasi – Konfigurasi :
+Petugas melengkapi data mulai dari Pengadilan, Bank dan Google Mail agar dapat
+ditampilkan di informasi pendaftaran perkara online. Untuk Kode Pengadilan diisi
+sesuai seperti Kode Perkara di Pengadilan masing-masing.
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |51
+
+
+
+
+                        Gambar 66 Konfigurasi Pengadilan
+
+
+
+
+                          Gambar 67 Konfigurasi Bank
+
+
+
+
+                       Gambar 68 Konfigurasi Google Mail
+
+
+6.3.Pengguna
+Pengguna adalah menu untuk user e-Court pengadilan masing-masing. Pengguna
+dibuat sesuai kewenangan user yang terlibat di pengadilan. Adapun pengisian user
+pengguna tidak jauh berbeda dengan Tambah User di SIPP sehingga tidak ada kesulitan
+di dalamnya. Setiap Pengadilan memiliki 1 administrator. Untuk memudahkan notifikasi
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |52
+
+setiap ada pendaftaran dan apapun notifikasi dari e-Court, diberikan alternatif untuk
+menempelkan accout email gmail dalam smartphone agar setiap ada email masuk
+langsung dapat diketahui. Itulah alasan email yang digunakan adalah gmail karena
+kemudahan dalam sinkronisasi dengan smartphone dan gratis.
+
+
+
+
+                       Gambar 69 Tambah Pengguna ECourt
+Panduan ini merupakan konfigurasi awal, dimana setiap user yang akan dibuat memiliki
+tugas dan kewenangan masing masing, seperti hakim atau meja II begitupula yang
+lainnya, sesuai dengan tupoksi masing-masing. Apabila ada salah satu petugas yang
+pensiun atau mutasi maka status dari pengguna tersebut adalah ‘Blok’ atau ‘Pindah’.
+Apabila petugas telah menginput data pengguna maka akan terupdate pada list ‘Daftar
+Pengguna’.
+                                                                                Buku Panduan
+                                                             e-Court Mahkamah Agung 2019 |53
+
+
+
+
+                            Gambar 70 List Daftar Pengguna
+6.4.Jenis Biaya
+Komponen biaya panjar dibuat sesuai alur perkara yang tersedia apakah perkara
+gugatan atau perkara permohonan. Komponen biaya panjar adalah item biaya yang
+akan ditampilkan di dalam Taksiran Biaya Panjar Perkara ataupun e-SKUM, sehingga
+perlu dikonfigurasi dari masing-masing pengadilan. Komponen biaya panjar sangat
+fleksible sehingga bisa dibuat sesuai ketetapan ketua pengadilan masing-masing.
+Untuk memulai membuat ketetapan biaya panjar dimulai dari menu ‘Konfigurasi
+Aplikasi – Jenis Biaya’.
+Pada halaman Komponen biaya panjar penting untuk di fahami terlebih dahulu
+sebelum membuat dan menentukan komponen biaya panjar dalam aplikasi agar
+perkalian pada generate e-SKUM sesuai yang dinginkan.
+
+
+
+
+                       Gambar 71 Halaman Komponen Biaya Panjar
+Untuk menambahkan komponen Biaya Panjar Klik tombol ‘+ Tambah’. Sebelum
+menambah komponen biaya panjar, petugas disarankan membaca petunjuk membuat
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |54
+
+komponen biaya panjar terlebih dahulu seperti yang terulis diatas tabel karena sifatnya
+penting.
+
+
+
+
+                          Gambar 72 Tambah Biaya Gugatan
+a.   Memilih Jenis Pendaftaran (Gugatan, Bantahan, Gugatan Sederhana, dan
+     Permohonan). Pemilihan jenis pendaftaran ini akan sangat menentukan komponen
+     biaya panjar ini nanti dalam kelompok perkara gugatan, kelompok perkara
+     bantahan, kelompok perkara gugatan sederahan atau kelompok perkara
+     permohonan.
+b.   Urutan diisi sesuai pengurutan Komponen biaya panjar sehingga bisa sesuai urutan
+     yang diinginkan seperti dalam komponen biaya panjar pada SKUM di pengadilan
+     selama ini.
+c.   Nama Biaya adalah nama keterangan atau uraian jenis biaya panjar Misalkan
+     Pendaftaran, Panggilan, Meterai, Redaksi dan seterusnya..
+d.   Biaya diisi sesuai nilai biaya tiap komponen biaya panjar. Biaya untuk panggilan diisi
+     0 (nol) nantinya akan teriisi otomatis dari besaran data radius tiap pengadilan yang
+     sudah ditentukan dan diupdate dari komdanas, apabila belum melakukan update
+     data radius di komdanas silahkan melakukan terlebih dahulu seperti petunjuk
+     sebelumnya.
+e.   Untuk jenis panggilan silahkan diisi dengan perkalian 2 (dua) untuk Penggugat dan
+     3 (tiga) untuk tergugat. Dengan mengisikan kode perkalian 2 atau 3 sistem akan
+     mengenali perkalian tersebut ditujukan kepada alamat penggugat atau alamat
+     tergugat.
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |55
+
+f.   Jumlah dikalikan diisi sesuai petunjuk perkalian seperti yang tertera pada
+     keterangan diatas tabel data radius bahwa untuk
+        Panggilan diisi perkalian 2 atau 3 (2 untuk mengenali penggugat dan 3 untuk
+         mengenali tergugat)
+        Untuk perkalian pada PNBP Relaas Panggilan pertama kode perkalian diisi 100
+         untuk mengenali bahwa kode perkalian 100 nantinya akan mengalikan PNBP
+         Relaas Panggilan Pertama (Rp. 5.000,-) x jumlah tergugat yang jumlahnya
+         dalam tiap perkara tidak bisa ditentukan sehingga untuk memudahkan
+         silahkan diisi kode perkalian 100 agar sistem mengenali bahwa item tersebut
+         untuk Panggilan Relaas Pertama
+g.   Status adalah status aktif dan tidak, untuk menampilkan di komponen biaya atau
+     tidak
+
+
+
+
+                          Gambar 73 Daftar Biaya Panjar
+
+
+
+6.5.Riwayat Pengguna
+Riwayat Pengguna digunakan untuk mengetahui informasi track-record perubahan-
+perubahan yang terjadi disetiap. Dalam Riwayat Pengguna ini juga ditampilkan IP
+berapa saja yang melakukan perubahan dan tersebut pada kolom ‘IP’ serta waktu
+perubahannya ‘Waktu’ sehingga dengan jelas dapat mengetahui kondisi perubahan
+yang telah dilakukan.
+                                                                                 Buku Panduan
+                                                              e-Court Mahkamah Agung 2019 |56
+
+
+
+
+                           Gambar 74 List Riwayat Pengguna
+Pada menu ‘Detil’ dapat terlihat secara langsung seluruh detil riwayat dari perubahan-
+perubahannya.
+
+
+
+
+                           Gambar 75 Detil Riwayat Pengguna
+
+
+
+6.6.Radius Biaya Panggilan
+Administrator sebelum e-Court digunakan wajib mengupdate data radius panggilan
+sesuai ketetapan Ketua Pengadilan yang masih berlaku melalui ‘Menu Konfigurasi –
+Radius Biaya Panggilan’.
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |57
+
+
+
+
+             Gambar 76 Data Radius Panggilan sesuai Wilayah Pengadilan
+Untuk update data Panggilan tidak dilakukan dengan input atau edit data, akan tetapi
+dilakukan dengan cara Login dahulu di aplikasi Komdanas Mahkamah Agung dan
+memperbaharui Data Radius di Komdanas. Apabila telah selesai kembali ke aplikasi e-
+Court dari menu Radius Biaya Panggilan tekan Tombol ‘Update Data Radius dari
+Komdanas’.
+
+
+
+
+                Gambar 77 Proses Update Data Radius dari Komdanas
+Data Radius sesuai wilayah pengadilan digunakan sebagai acuan generate taksiran
+panjar biaya perkara atau e-SKUM.
+
+
+6.7.Pengguna Non Advokat
+Selain pengguna terdaftar yaitu advokat, E-Court sudah bisa melakukan pendaftaran
+terhadap pengguna insidentil yaitu Perorangan, Pemerintah dan Badan Hukum. Apabila
+pengguna insidentil akan berperkara dapat melakukan pendaftaran dengan E-Court
+harus datang ke pengadilan agar diproses oleh petugas.
+   6.7.1. Tambah Pengguna
+       Pegawai pengadilan yang bertugas dapat mendaftarkan pengguna insidentil
+       melalui menu yang tersedia ‘+ Tambah Pengguna’.
+                                                                      Buku Panduan
+                                                   e-Court Mahkamah Agung 2019 |58
+
+
+
+
+                Gambar 78 Menu Tambah Pengguna
+Setelah petugas memilih tombol tersebut, petugas menyesuaikan dengan
+pengguna insidentil (non advokat) tersebut sebagai perorangan, pemerintah
+atau badan hukum
+
+
+
+
+         Gambar 79 Daftar Pengguna Insdentil (Non Advokat)
+Untuk Perseorangan terdapat beberapa field yang harus diisi diantaranya :
+                                                                  Buku Panduan
+                                               e-Court Mahkamah Agung 2019 |59
+
+
+
+
+            Gambar 80 Tambah Pengguna Perseorangan
+Untuk Pemerintahan juga terdapat beberapa field yang harus diisi, sebagai
+berikut :
+                                                                    Buku Panduan
+                                                 e-Court Mahkamah Agung 2019 |60
+
+
+
+
+              Gambar 81 Tambah Pengguna Pemerintahan
+Berbeda dari Perseorangan dan Pemerintahan untuk Badan Hukum terdapat
+beberapa field yang dibutuhkan daripada yang lain, berikut merupakan data
+yang harus diisi.
+                                                                       Buku Panduan
+                                                    e-Court Mahkamah Agung 2019 |61
+
+
+
+
+               Gambar 82 Tambah Pengguna Badan Hukum
+Ketika nama pengguna insidentil muncul dalam layar, petugas harus melengkapi
+data   dari    pengguna    insidentil   tersebut,    misalnya   untuk    pengguna
+Perseorangan, petugas harus memilih Nama dari pengguna tersebut setelah itu
+pengguna mengupload semua dokumen yang dibutuhkan yaitu KTP, Akta, atau
+Surat Kuasa.
+                                                                        Buku Panduan
+                                                     e-Court Mahkamah Agung 2019 |62
+
+
+
+
+            Gambar 83 Upload Dokumen Pengguna Insidentil
+Apabila petugas telah melengkapi dokumen yang dibutuhkan maka akan
+muncul tombol Verifikasi pada bagian atas Detail Pengguna Non Advokat.
+Selanjutnya petugas memilih tombol tersebut untuk melakukan Verifikasi.
+
+
+
+
+                Gambar 84 Verifikasi Pengguna Non Advokat
+Ketika petugas sudah memverifikasi data Pengguna Non Advokat maka akan
+muncul pesan mengenai username dan password untuk pendaftar tersebut.
+
+
+
+
+                Gambar 85 Pesan Username dan Password
+Maka secara otomatis Pengguna Non Advokat berubah status menjadi
+Terverfikasi.
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |63
+
+
+
+
+              Gambar 86 Hasil Verifikasi Pengguna Non Advokat
+
+
+
+6.7.2. Aktivasi Ulang
+   Setelah petugas menginput semua data pengguna insidentil, maka nama-nama
+   dari pengguna tersebut muncul pada layar dengan status yang terdapat pada
+   bagian Verifikasi ‘Belum Verifikasi’.
+
+
+
+
+                     Gambar 87 Status Belum Verifikasi
+   Untuk melakukan verifikasi petugas dapat memilih menu Aktivasi Ulang dan
+   melakukan search terhadap nama yang akan diaktivasi pada field yang telah
+   tersedia dan memilih tombol ‘Aktivasi’ maka secara terotomatis akun dari
+   pengguna insidentil tersebut aktif dan sudah dapat digunakan.
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |64
+
+
+
+
+                       Gambar 88 Aktivasi Pengguna Insidentil
+       User dan Password untuk pengguna insidentil hanya berlaku untuk beracara
+       secara elektronik untuk satu kali dan 14 hari setelah tanggal putusan, user tidak
+       bisa lagi mengakses data perkaranya. Untuk menggunakan kembali harus
+       dilakukan aktivasi kembali oleh Pengadilan.
+
+
+6.8.Detil Pendaftaran Perkara Administrator Pengadilan Pertama
+Setelah pengguna terdaftar / insidentil melakukan semua rangkaian pendaftaran
+hingga persidangan secara elektronik, petugas pengadilan dapat melihat ringkasan /
+detil perkara yang telah dilakukan pada pengadilan tersebut. Petugas dapat memilih
+Nomor Perkara pada kolom Kode & Tanggal Register dalam menu Pendaftaran Perkara.
+Dari Nomor Perkara yang terpilih muncul semua informasi yang terdiri dari tiga bagian
+yaitu Pendaftaran, Persidangan, dan Dokumen.
+
+
+
+
+                       Gambar 89 Detil Pendaftaran Gugatan
+6.8.1. Pendaftaran
+Dalam bagian Pendaftaran terdapat informasi Pendaftaran Perkara, Pembayaran,
+Persetujuan Pihak Menggunakan Saluran Elektronik (persetujuan Prinsipal), Panggilan,
+serta Biaya Perkara.
+                                                                            Buku Panduan
+                                                         e-Court Mahkamah Agung 2019 |65
+
+Dalam bagian Pendaftaran terdapat informasi Pendaftaran Perkara, Pembayaran,
+Persetujuan Pihak Menggunakan Saluran Elektronik (persetujuan Prinsipal), Panggilan,
+serta Biaya Perkara.
+
+
+
+
+                       Gambar 90 Detil Pendaftaran Gugatan
+Didalam bagian Detil Pendaftaran ini petugas bisa melakukan cetak Bukti Pembayaran
+melalui menu ‘Cetak’ yang ada pada bagian e-Payment berlaku pula untuk e-Summons
+sehingga langsung ter-generate otomatis untuk dicetak, serta untuk e-Summons
+petugas dapat melakukan panggilan kepada para pihak dengan memilih tombol ‘Kirim
+Panggilan / Pemberitahuan’ . Didalam Halaman Detil Pendaftaran bagian e-Payment
+terdapat penambahan Fungsi Cek Pembayaran sehingga bisa terkoneksi dengan
+Perbankan apabila Pembayaran dilakukan melalui teller atau ATM sehingga
+Pengecekan Pembayaran dilakukan setelah login kembali. Petugas juga dapat
+mengunduh     Formulir Persetujuan Para Pihak Beracara secara elektronik melalui
+tombol ‘Download Formulir’
+Pada bagian Pendaftaran, apabila terdapat pihak yang ingin melakukan intervensi
+terhadap suatu perkara maka petugas pengadilan dapat menginput data pihak
+intervensi melalui tombol ‘Tambah Pihak Intervensi’.
+                                                                                Buku Panduan
+                                                             e-Court Mahkamah Agung 2019 |66
+
+
+
+
+                         Gambar 91 Tambah Pihak Intervensi
+Setiap tanda asterik pada field yang tersedia bersifat wajib diisi.
+
+
+
+
+                       Gambar 92 Field tambah pihak intervensi
+
+
+
+
+                             Gambar 93 Pihak Intervensi
+Seorang pihak intervensi dapat mengintervensikan suatu perkara melalui secara
+perseorangan atau menggunakan kuasa hukum. Apabila pihak tersebut menggunakan
+kuasa hukum maka petugas pengadilan dapat menginputkan data kuasa hukumnya
+melalui tombol ‘Tambah Kuasa Hukum’.
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |67
+
+
+
+
+                    Gambar 94 Tambah Kuasa Hukum Intervensi
+Ketika petugas menginputkan kuasa hukumnya petugas memilih pihak intervensi pada
+kolom ‘Pihak’
+
+
+
+
+                        Gambar 95 Kuasa Hukum Intervensi
+Ketika sudah menginputkan data kuasa hukum intervensi maka secara otomatis data
+kuasa hukumnya muncul dalam detil pendaftaran
+
+
+
+
+                   Gambar 96 Detil Kuasa Hukum Pihak Intervensi
+Kelengkapan dokumen selanjutnya untuk melakukan intervensi ini, apabila yang
+melakukan intervensi adalah perseorangan, maka dokumen yang wajib diupload adalah
+Surat Gugatan, namun jika yang melakukan intervensi menggunakan kuasa dokumen
+yang wajib diupload adalah Surat Gugatan, Surat Kuasa dan Surat Persetujuan Prinsipal.
+Untuk menambahkan kesemuanya petugas dapat memilih tombol ‘Tambah Dokumen
+Intervensi’.
+                                                                          Buku Panduan
+                                                       e-Court Mahkamah Agung 2019 |68
+
+
+
+
+                     Gambar 97 Tombol Tambah Dokumen Intervensi
+
+
+
+
+                     Gambar 98 Upload Dokumen Intervensi
+Dokumen yang diupload adalah dokumen yang bertipe jpeg atau pdf. Ketika sudah
+mengupload dokumen tersebut, maka akan muncul informasi dalam detil pendaftaran.
+
+
+
+
+                        Gambar 99 Dokumen Intervensi
+Didalam bagian Persetujuan Pihak Menggunakan Saluran Elektronik untuk pihak yang
+berintervensi bersifat wajib menggunakan acara persidangan secara elektronik namun
+bila pihak tersebut tidak ingin menggunakan persidangan elektronik maka petugas
+dapat tidak menerima pihak intervensi tersebut. Ketika pihak setuju menggunakan
+persidangan secara elektronik maka muncul nama pihak dalam feild persetujuan.
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |69
+
+
+
+
+             Gambar 100 Pihak Intervensi Menggunakan Saluran Elektronik
+Untuk pihak yang ber-intervensi, ketika pihak beracara secara elektronik menggunakan
+kuasa maka secara otomatis tombol Generate User Persetujuan ter-disable namun bila
+pihak intervensi tidak menggunakan kuasa (diri pribadi) maka petugas pengadilan harus
+memilih tombol Generate User agar pihak intervensi dapat melakukan persidangan
+secara elektornik.
+
+
+6.8.2. Persidangan
+Pada bagian Persidangan berisi history jalannya sidang antar pihak yang ditangani oleh
+hakim tersebut. Sidang pertama berasal dari Penetapan Hari Sidang yang ada di SIPP
+dan jadwal persidangan sudah terintegrasi dengan Tundaan Sidang di SIPP juga.
+Dokumen dikirim setelah terdapat tundaan sidang dan ditutup sesuai jadwal sidang.
+Untuk mekanisme kontrol (menerima, memeriksa, meneruskan) dari semua dokumen
+yang diupload para pihak dilakukan oleh majelis hakim / hakim, yang berarti ketika
+kedua belah pihak mengirimkan dokumen dan selama belum diverifikasi oleh majelis /
+hakim kedua belah pihak tidak dapat melihat atau mendownload dokumen yang dikirim
+oleh pihak lawan. Pemberitahuan kepada majelis hakim ini untuk meyelesaikan suatu
+perkara diberitahukan melalui notifikasi dan terdapat integrasi antara e-Court dan SIPP.
+                                                                              Buku Panduan
+                                                           e-Court Mahkamah Agung 2019 |70
+
+
+
+
+                          Gambar 101 Detil Persidangan
+
+
+Sebelum melakukan Verifikasi Dokumen, hakim bisa melihat keseluruhan isi dokumen
+tersebut dengan dua jenis file yaitu DOC dan RTF. Ketika Hakim melakukan Verifikasi
+Dokumen terhadap isi dokumen yang telah diupload oleh para pihak dan menyatakan
+setuju untuk melakukan verifikasi maka hakim memilih tombol biru untuk melakukan
+verifikasinya, secara terotomatis status dokumen berubah menjadi Sudah diverifikasi
+Majelis/Hakim. Verifikasi Dokumen ini dilakukan hanya pada saat jam kerja dan tanggal
+sidang.
+
+
+
+
+                      Gambar 102 Detil Persidangan Verifikasi
+Ketika perkara sudah dinyatakan putus, seorang hakim bisa melakukan upload
+dokumen salinan putusan pada e-Court ini melalui tombol ‘Upload Salinan Putusan’
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |71
+
+
+
+
+                           Gambar 103 Upload Putusan
+Ketika sudah berhasil melakukan upload putusan maka file tesebut otomatis muncul
+pada field ‘Salinan Putusan’
+
+
+
+
+                               Gambar 104 Salinan Putusan
+
+6.8.3. Dokumen
+Pada bagian Dokumen berisi dokumen-dokumen yang terjadi selama persidangan antar
+pihak. Status dokumen dibagi menjadi dua yaitu yang terkunci dan tidak terkunci, yang
+tidak terkunci berarti dokumen tersebut bisa diakses atau didownload dan sudah
+diverifikasi oleh majelis hakim sehingga bisa dilihat oleh pihak lawan. Apabila dokumen
+tersebut terkunci berarti dokumen tersebut belum diverifikasi oleh majelis hakim.
+                                              Buku Panduan
+                           e-Court Mahkamah Agung 2019 |72
+
+
+
+
+Gambar 105 Detil Dokumen
+  USER LOGIN ADMINISTRATOR                                                          Buku Panduan
+                                                                 e-Court Mahkamah Agung 2019 |73
+PENGADILAN TINGKAT PERTAMA #2
+
+
+           User Login Administrator Pengadilan Tingkat Pertama #2
+
+
+        7. Register Pendaftaran Online di SIPP
+        Register Pendaftaran Online di SIPP dilakukan oleh Panitera Muda Perdata atau Meja I
+        Perdata. Menu Pendaftaran Online hanya dapat dilihat pada User dengan Kewenangan
+        tertentu diantaranya adalah
+        a) Super Administrator
+        b) Administrator
+        c) Ketua/Wakil Ketua
+        d) Panitera/Wakil Panitera
+        e) Panmud Perdata
+        f) Admin Panitera Perdata Umum
+        g) Meja I Perdata
+        h) Panitera Muda PHI
+        i) Admin Panitera Perdata Khusus PHI
+        j) Meja I Perdata Khusus PHI
+        k) Panmud Perdata Khusus Niaga
+        l) Admin Panitera Perdata Khusus Niaga
+        m) Meja I Perdata Khusus Niaga
+        n) Panmud Gugatan
+        o) Meja I Gugatan
+        p) Panmud Permohonan
+        q) Meja I Permohonan
+        r) Admin Panitera Perkara
+        s) Meja I Perkara
+
+
+      8. Meregister Perkara dari Pendaftaran Online
+        User yang memiliki hak akses untuk melihat Menu ‘E-Court’, akan dapat melihat notifikasi
+        berapa jumlah Pendaftaran Online yang masuk melalui E-Court baik yang dilakukan oleh
+                                                                                  Buku Panduan
+                                                               e-Court Mahkamah Agung 2019 |74
+
+pengguna terdaftar atau pengguna insidentil. Pendaftaran yang masuk dalam Daftar
+Pendaftaran Online adalah pendaftaran yang sudah memiliki status ‘Dibayar’ untuk panjar
+perkara.
+
+
+
+
+                                 Gambar 106 Menu E-Court
+
+
+   ‘Menu E-Court’ memiliki notifikasi angka sesuai dengan jumlah pendaftaran online yang
+   sudah masuk dan memiliki status ‘Dibayar’ dan belum diregister di SIPP(Sistem
+   Informasi Penelusuran Perkara) atau yang belum mempunyai Nomor Perkara.
+
+
+
+
+               Gambar 107 Daftar Pendaftaran Online yang masuk ke dalam SIPP
+
+
+   Setelah mendapatkan data pendaftaran online yang masuk dalam daftar pendaftaran
+   online, untuk meregister ke dalam SIPP dan mendapatkan nomor perkara dengan
+   menekan tombol Register.
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |75
+
+
+
+
+          Gambar 108 Tombol Register untuk memulai Pendaftaran Baru di SIPP
+
+
+Setelah ditekan tombol register, akan tampil formulir pendaftaran perkara perdata
+gugatan, seperti halnya tambah perkara baru melalui menu Jurnal Keuangan apabila
+akan mendaftarkan perkara baru pada pendaftaran manual.
+
+
+
+
+                  Gambar 109 Formulir Pendaftaran Perkara Gugatan
+
+
+Tambah perkara dilakukan dengan cara memilih Klasifikasi Perkara terlebih dahulu.
+Klasifikasi perkara ditentukan oleh Panitera Muda Perdata atau Meja I Perdata dan
+panjar perkara akan terisi otomatis sesuai Taksiran Panjar Biaya Perkara yang diperoleh
+dari pendaftaran online. Pilihan Generate Nomor dengan pilihan Ya atau Tidak dan
+pengisian form lainnya seperti halnya pendaftaran perkara secara manual sehingga
+tidak ada kesulitan dalam meregister perkara baru pada SIPP untuk pendaftaran Online.
+Setelah pendaftaran perkara berhasil, maka akan kembali ke Menu Pendaftaran Online
+kembali, dan perkara yang sudah diregister tidak akan ditampilkan kembali dalam
+                                                                                 Buku Panduan
+                                                              e-Court Mahkamah Agung 2019 |76
+
+Daftar Pendaftaran Online karena sudah memiliki nomor perkara. Akan tetapi statusnya
+masih bisa dicari dari Form Pencarian dengan mengetik Nomor Register Online.
+
+
+
+
+       Gambar 110 Daftar Perkara Online yang Belum mendapatkan Nomor Perkara
+
+
+Pendaftaran yang telah dilakukan jika berhasil maka akan terdapat Perkara Baru di
+register perkara perdata gugatan dan jurnal keuangan.
+
+
+
+
+         Gambar 111 Perkara Baru yang didaftarkan melalui Pendaftaran Online
+
+
+
+
+                 Gambar 112 Buku Jurnal Keuangan pada Perkara Baru
+         (Besaran Panjar sesuai dengan Taksiran Panjar pada Pendaftaran Online)
+                                                                                 Buku Panduan
+                                                              e-Court Mahkamah Agung 2019 |77
+
+Setelah berhasil melalukan register pendaftaran perkara baru, secara otomatis pada
+https://e-Court.mahkamahagung.go.id nomor Pendaftaran Perkara Online yang sudah
+mendapatkan Nomor Perkara dari SIPP secara otomatis akan terupdate.
+
+
+
+
+Pada saat meregister
+       Gambar 113 Statusperkara   baru
+                        Pendaftaran      diPerkara
+                                    Online   SIPP Terdaftar
+                                                   secara dengan
+                                                            otomatis,
+                                                                 Nomorsetelah
+                                                                       Perkara berhasil
+mengupdate data e-Court untuk Nomor Perkara, juga akan mengirimkan email
+notifikasi kepada Pengguna Terdaftar yang mendaftarkan perkara tersebut.
+
+
+
+
+       Gambar 114 Notifikasi Pendaftaran Berhasil yang dikirim ke email Pendaftar
+                                                                                  Buku Panduan
+                                                               e-Court Mahkamah Agung 2019 |78
+ USER LOGIN HAKIM
+
+
+                                 USER LOGIN HAKIM
+
+User dan Password Hakim diberikan oleh Administrator Pengadilan Tingkat Pertama yang
+sudah didaftarkan melalui menu Konfigurasi Aplikasi  Pengguna dan Hakim dapat melakukan
+login pada aplikasi e-Court pada domain https://ecourt.mahkamahagung.go.id
+   9. Dashboard Hakim
+       Pada dashboard e-Court berisi tampilan yang lebih informatif dan merupakan sebuah
+       informasi yang diberikan kepada hakim. Dalam dashboard tersebut terdapat sebuah
+       kolom ‘Pengumuman’ yang berisi informasi dari pimpinan Mahkamah Agung ditujukan
+       kepada Pengadilan serta terdapat beberapa kolom perkara diantaranya informasi : ‘Info
+       Pendaftaran Perkara’ yang dibagi menjadi dua bagian yaitu Berhasil Mendapatkan
+       Nomor Perkara dan Bayar, Belum Mendapatkan Nomor Perkara, selanjutnya informasi
+       ‘Belum Mendapatkan Nomor Perkara’, ‘Belum Melaksanakan E-Summon’, dan ‘Belum
+       ada Persidangan’. Petugas dapat melihat semua data melalui dashboard yang tampil
+       sesuai dengan kondisi perkara saat itu.
+
+
+
+
+                                Gambar 115 Halaman Dashboard
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |79
+
+
+10. Edit Profile Hakim
+   Seorang hakim bisa menggunakan nama yang sesuai dengan user yang telah diberikan
+   oleh Administrator pengadilan, atau bisa juga berbeda kemudian mengupdate user dan
+   email yang ada pada aplikasi e-Court.
+   Sebagai contoh user yang diberikan hendrahakim@gmail.com           dan kemudian ingin
+   diganti hendra_hakim@gmail.com . Hakim bisa melakukan login dan melalui menu
+   ‘Edit Profil’ dan Ganti Email yang ada. Disarankan untuk mengganti password yang
+   diberikan.
+
+
+
+
+                             Gambar 116 Menu Edit Profile
+
+
+
+
+                             Gambar 117 Profile Pengguna
+
+
+   Seorang hakim bisa merubah, email, password dan Foto Profil melalui tombol ‘Rubah
+   Login Pengguna’. (Disarankan untuk didokumentasi dan diberikan kepada pimpinan
+   yang berwenang).
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |80
+
+
+
+
+                            Gambar 118 Form Edit Pengguna
+
+
+11.Detil Pendaftaran Perkara Hakim
+   Setelah hakim berhasil login, selajutnya pada menu ‘Pendaftaran Perkara’ dan memilih
+   jenis perkaranya Gugatan, Bantahan, Gugatan Sederhana, atau Permohonan Online.
+   Apabila hakim sudah memilih salah satu dari jenis perkara tersebut maka akan tampil
+   perkara apa saja yang akan ditangani.
+
+
+
+
+                              Gambar 119 Daftar Perkara
+   Untuk melakukan persidangan elektronikanya, Hakim dapat memilih Nomor Perkara
+   pada kolom Kode & Tanggal Register dalam menu Pendaftaran Perkara. Dari Nomor
+   Perkara yang terpilih muncul semua informasi yang terdiri dari tiga bagian yaitu
+   Pendaftaran, Persidangan, dan Dokumen.
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |81
+
+
+
+
+                       Gambar 120 Detil Pendaftaran Gugatan
+Dalam bagian Pendaftaran terdapat informasi Pendaftaran Perkara, Pembayaran,
+Persetujuan Pihak Menggunakan Saluran Elektronik (persetujuan principal), Panggilan,
+serta Biaya Perkara.
+
+
+
+
+                       Gambar 121 Detil Pendaftaran Gugatan
+Hakim dapat melihat setiap detil informasi yang berkaitan dengan perkara yang sedang
+ditanganinya.
+Pada bagian Persidangan berisi history jalannya sidang antar pihak yang ditangani oleh
+hakim tersebut. Sidang pertama berasal dari Penetapan Hari Sidang yang ada di SIPP
+dan jadwal persidangan sudah terintegrasi dengan Tundaan Sidang di SIPP juga.
+Dokumen dikirim setelah terdapat tundaan sidang dan ditutup sesuai jadwal sidang.
+Untuk mekanisme kontrol (menerima, memeriksa, meneruskan) dari semua dokumen
+yang diupload para pihak dilakukan oleh majelis hakim / hakim, yang berarti ketika
+kedua belah pihak mengirimkan dokumen dan selama belum diverifikasi oleh majelis /
+hakim kedua belah pihak tidak dapat melihat atau mendownload dokumen yang dikirim
+                                                                             Buku Panduan
+                                                          e-Court Mahkamah Agung 2019 |82
+
+oleh pihak lawan. Pemberitahuan kepada majelis hakim ini untuk meyelesaikan suatu
+perkara diberitahukan melalui notifikasi dan terdapat integrasi antara e-Court dan SIPP.
+
+
+
+
+                           Gambar 122 Detil Persidangan
+Sebelum melakukan Verifikasi Dokumen, hakim bisa melihat keseluruhan isi dokumen
+tersebut dengan dua jenis file yaitu DOC dan RTF. Ketika Hakim melakukan Verifikasi
+Dokumen terhadap isi dokumen yang telah diupload oleh para pihak dan menyatakan
+setuju untuk melakukan verifikasi maka hakim memilih tombol biru untuk melakukan
+verifikasinya, secara terotomatis status dokumen berubah menjadi Sudah diverifikasi
+Majelis/Hakim. Verifikasi Dokumen ini dilakukan hanya pada saat jam kerja dan tanggal
+sidang.
+                                                                               Buku Panduan
+                                                            e-Court Mahkamah Agung 2019 |83
+
+
+
+
+                       Gambar 123 Detil Persidangan Verifikasi
+Ketika perkara sudah dinyatakan putus, seorang hakim bisa melakukan upload
+dokumen salinan putusan pada e-Court ini melalui tombol ‘Upload Salinan Putusan’
+
+
+
+
+                            Gambar 124 Upload Putusan
+Ketika sudah berhasil melakukan upload putusan maka file tesebut otomatis muncul
+pada field ‘Salinan Putusan’
+                                                                           Buku Panduan
+                                                        e-Court Mahkamah Agung 2019 |84
+
+
+
+
+                           Gambar 125 Salinan Putusan
+Pada bagian Dokumen berisi dokumen-dokumen yang terjadi selama persidangan antar
+pihak. Status dokumen dibagi menjadi dua yaitu yang terkunci dan tidak terkunci, yang
+tidak terkunci berarti dokumen tersebut bisa diakses atau didownload dan sudah
+diverifikasi oleh majelis hakim sehingga bisa dilihat oleh pihak lawan. Apabila dokumen
+tersebut terkunci berarti dokumen tersebut belum diverifikasi oleh majelis hakim.
+
+
+
+
+                            Gambar 126 Detil Dokumen
+
