@@ -388,7 +388,7 @@ export function DaftarAdvokat() {
               <Input
                 value={form.nama}
                 onChange={(e) => setForm({ ...form, nama: e.target.value })}
-                placeholder="contoh: Ahmad Fauzi, S.H., M.Kn."
+                placeholder="contoh: Rudi Iswahyudi, S.H., M.H."
               />
             </div>
             <div className="grid gap-3 md:grid-cols-2">

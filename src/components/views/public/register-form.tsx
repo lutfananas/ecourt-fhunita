@@ -149,7 +149,7 @@ export function RegisterForm() {
                 <Label htmlFor="nama">Nama Lengkap dan Gelar *</Label>
                 <Input
                   id="nama"
-                  placeholder="contoh: Ahmad Fauzi, S.H., M.Kn."
+                  placeholder="contoh: Rudi Iswahyudi, S.H., M.H."
                   value={form.nama}
                   onChange={(e) => setForm({ ...form, nama: e.target.value })}
                   required
@@ -160,7 +160,7 @@ export function RegisterForm() {
                   <Label htmlFor="username">Username *</Label>
                   <Input
                     id="username"
-                    placeholder="contoh: ahmad.advokat"
+                    placeholder="contoh: rudi.advokat"
                     value={form.username}
                     onChange={(e) =>
                       setForm({ ...form, username: e.target.value })
@@ -173,7 +173,7 @@ export function RegisterForm() {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="contoh: ahmad.advokat@gmail.com"
+                    placeholder="contoh: rudi.iswahyudi@unita.ac.id"
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
                     required

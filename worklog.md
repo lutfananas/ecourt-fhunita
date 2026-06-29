@@ -131,3 +131,57 @@ Stage Summary:
 - Deskripsi ditekankan sebagai "media pembelajaran simulasi peradilan elektronik"
 - Atribusi ke Manual Book e-Court Mahkamah Agung 2019 tetap dipertahankan sebagai sumber referensi
 - 6 screenshot baru disimpan di download/ (21-26)
+
+---
+Task ID: eCourt-004
+Agent: Main (Super Z)
+Task: Update semua nama di mock data website ke 10 dosen FH UNTA
+
+Work Log:
+- Pemetaan 10 dosen FH UNTA ke berbagai role:
+  1. RETNO SARI DEWI (NIDN 0730078401) → usr-001 Admin Banding
+  2. SURJANTI (NIDN 0714076401) → usr-002 Admin Pertama
+  3. AULIA RAHMAN HAKIM (NIDN 0701068710) → usr-003 Hakim (sesuai nama!)
+  4. RUDI ISWAHYUDI, SH., MH. → usr-004 Advokat Terverifikasi (sesuai gelar!)
+  5. ACHMAD RIZA FIRDAUS → usr-005 Advokat Belum Verifikasi
+  6. KHOIRUL ANAM (NIDN 0729038606, S3) → usr-006 Insidentil Perseorangan
+  7. BAMBANG SLAMET EKO SUGISTIYOKO → usr-007 Insidentil Badan Hukum
+  8. M SRIASTUTI AGUSTINA → pihak Tergugat/Penggugat
+  9. WIDOWATI (S3) → pihak Penggugat
+  10. ERLY PANGESTUTI → pihak Tergugat
+- Update INITIAL_USERS: username, email (@unita.ac.id), nama, telepon (0355-322145), NIP=NIDN, jabatan "Dosen Tetap FH UNTA - [Role]"
+- Update INITIAL_PERKARA: pendaftarNama dari "Ahmad Fauzi, S.H., M.Kn." → "Rudi Iswahyudi, S.H., M.H." (4 perkara), "Budi Santoso" → "Khoirul Anam" (1 perkara)
+- Update INITIAL_PIHAK:
+  - ph-002 Tergugat: Bapak Joko Widodo → M Sriastuti Agustina
+  - ph-003 Penggugat: Ibu Siti Aminah → Widowati
+  - ph-004 Tergugat: Bapak Suparman → Erly Pangestuti
+  - ph-005 Penggugat: Bapak Andi Wijaya → M Sriastuti Agustina
+  - ph-006 Penggugat: Budi Santoso → Khoirul Anam
+  - ph-007 Tergugat: Bapak Cahyo → Erly Pangestuti
+  - Semua advokatNama: "Ahmad Fauzi, S.H., M.Kn." → "Rudi Iswahyudi, S.H., M.H."
+  - Email pihak diubah ke @unita.ac.id
+- Update INITIAL_DOKUMEN: semua uploaderNama "Ahmad Fauzi, S.H., M.Kn." → "Rudi Iswahyudi, S.H., M.H.", "Budi Santoso (Kuasa Tergugat)" → "Khoirul Anam (Kuasa Tergugat)"
+- Update DEMO_USERS di login-form.tsx dengan username baru (retno.sari, surjanti, aulia.hakim, rudi.advokat, khoirul.insidentil)
+- Update placeholder di login-form.tsx dan register-form.tsx: contoh nama dan email pakai dosen UNTA
+- Update placeholder di verifikasi-advokat.tsx
+- Lint check: 0 error
+- Verifikasi via Agent Browser:
+  - Login page: 5 demo button dengan username dosen UNTA ✓
+  - Login sebagai Rudi Iswahyudi (Advokat): "Selamat Datang, Rudi Iswahyudi, S.H., M.H." avatar "RI" ✓
+  - Detil Perkara 123: Pendaftar "Rudi Iswahyudi, S.H., M.H.", Kuasa Hukum "Rudi Iswahyudi", Tergugat "M Sriastuti Agustina" (sriastuti.agustina@unita.ac.id) ✓
+  - Login sebagai Aulia Rahman Hakim (Hakim): "Selamat Datang, Aulia Rahman Hakim, S.H., M.H." avatar "AR" ✓
+  - Login sebagai Retno Sari Dewi (Admin Banding): "Selamat Datang, Retno Sari Dewi" avatar "RS" ✓
+  - Verifikasi Advokat: menampilkan "Achmad Riza Firdaus, S.H." dengan email achmad.firdaus@unita.ac.id ✓
+  - Login sebagai Surjanti (Admin Pertama): "Selamat Datang, Surjanti" ✓
+  - Login sebagai Khoirul Anam (Insidentil): "Selamat Datang, Khoirul Anam" ✓
+  - Login sebagai Bambang Slamet Eko Sugistiyoko (Insidentil Badan Hukum): "Selamat Datang, Bambang Slamet Eko Sugistiyoko" avatar "BS" ✓
+  - Toast: "Selamat datang di e-Court FH UNTA" ✓
+
+Stage Summary:
+- Semua nama di mock data website e-Court FH UNTA telah diganti dengan 10 dosen FH UNTA
+- Setiap dosen dipetakan ke role yang sesuai (Hakim → Aulia Rahman Hakim, Advokat → Rudi Iswahyudi SH MH)
+- Email semua user menggunakan domain @unita.ac.id
+- NIP/NIDN dosen dimasukkan sebagai NIP di data user
+- Jabatan user: "Dosen Tetap FH UNTA - [Role Simulasi]"
+- Pihak-pihak dalam perkara juga menggunakan nama dosen UNTA yang tersisa
+- 7 screenshot baru disimpan (27-33)

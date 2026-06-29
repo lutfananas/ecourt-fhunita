@@ -22,11 +22,11 @@ import {
 } from "lucide-react";
 
 const DEMO_USERS = [
-  { label: "Admin Pengadilan Tingkat Banding", username: "admin.bandung", password: "admin123", icon: Building2, role: "ADMIN_BANDING" },
-  { label: "Admin Pengadilan Tingkat Pertama", username: "admin.pnjktpusat", password: "admin123", icon: ShieldCheck, role: "ADMIN_PERTAMA" },
-  { label: "Hakim", username: "hendra.hakim", password: "hakim123", icon: Gavel, role: "HAKIM" },
-  { label: "Advokat (Terverifikasi)", username: "ahmad.advokat", password: "advokat123", icon: Scale, role: "ADVOKAT" },
-  { label: "Pengguna Insidentil", username: "budi.insidentil", password: "user123", icon: UserIcon, role: "INSIDENTIL" },
+  { label: "Admin Pengadilan Tingkat Banding", username: "retno.sari", password: "admin123", icon: Building2, role: "ADMIN_BANDING" },
+  { label: "Admin Pengadilan Tingkat Pertama", username: "surjanti", password: "admin123", icon: ShieldCheck, role: "ADMIN_PERTAMA" },
+  { label: "Hakim", username: "aulia.hakim", password: "hakim123", icon: Gavel, role: "HAKIM" },
+  { label: "Advokat (Terverifikasi)", username: "rudi.advokat", password: "advokat123", icon: Scale, role: "ADVOKAT" },
+  { label: "Pengguna Insidentil", username: "khoirul.insidentil", password: "user123", icon: UserIcon, role: "INSIDENTIL" },
 ];
 
 export function LoginForm() {
@@ -83,7 +83,7 @@ export function LoginForm() {
                   <Input
                     id="username"
                     type="text"
-                    placeholder="contoh: ahmad.advokat atau ahmad.advokat@gmail.com"
+                    placeholder="contoh: rudi.advokat atau rudi.iswahyudi@unita.ac.id"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     required
