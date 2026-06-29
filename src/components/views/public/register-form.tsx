@@ -86,7 +86,7 @@ export function RegisterForm() {
                 Pendaftaran Berhasil
               </CardTitle>
               <CardDescription>
-                Akun Anda telah berhasil didaftarkan.
+                Akun Anda telah berhasil didaftarkan di e-Court FH UNTA.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -97,7 +97,8 @@ export function RegisterForm() {
                   <em>Belum Terverifikasi</em>. Pengadilan Tingkat Banding di
                   mana Anda disumpah akan melakukan verifikasi terhadap data
                   Anda (Nomor Berita Acara Sumpah, KTP, dan KTA). Setelah
-                  terverifikasi, Anda dapat mulai beracara menggunakan e-Court.
+                  terverifikasi, Anda dapat mulai beracara menggunakan e-Court
+                  FH UNTA.
                 </AlertDescription>
               </Alert>
               <Alert className="border-primary/30 bg-primary/5">
@@ -137,9 +138,9 @@ export function RegisterForm() {
               Register Pengguna Terdaftar (Advokat)
             </CardTitle>
             <CardDescription>
-              Pendaftaran akun untuk Advokat yang telah disumpah. Setelah
-              pendaftaran, akun akan diverifikasi oleh Pengadilan Tingkat Banding
-              tempat Anda disumpah.
+              Pendaftaran akun untuk Advokat yang telah disumpah di e-Court FH
+              UNTA. Setelah pendaftaran, akun akan diverifikasi oleh Pengadilan
+              Tingkat Banding tempat Anda disumpah.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -304,7 +305,7 @@ export function RegisterForm() {
                   <span className="text-primary font-medium">
                     syarat dan ketentuan
                   </span>{" "}
-                  e-Court Mahkamah Agung dan menyatakan data yang saya berikan
+                  e-Court FH UNTA dan menyatakan data yang saya berikan
                   adalah benar.
                 </Label>
               </div>

@@ -798,7 +798,7 @@ export function ESKUMStep({ perkaraId }: { perkaraId: string }) {
         <CardContent className="p-6 space-y-4">
           {/* Header SKUM */}
           <div className="text-center border-b-2 border-primary pb-3">
-            <div className="text-xs text-muted-foreground uppercase">Mahkamah Agung Republik Indonesia</div>
+            <div className="text-xs text-muted-foreground uppercase">Fakultas Hukum Universitas Tulungagung</div>
             <h3 className="font-heading text-xl font-extrabold mt-1">
               {perkara.pengadilanNama}
             </h3>

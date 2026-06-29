@@ -221,15 +221,15 @@ export const INITIAL_PENGUMUMAN: Pengumuman[] = [
   {
     id: "pgm-001",
     judul: "Sosialisasi e-Court 2024",
-    isi: "Mahkamah Agung mengajak seluruh Advokat dan Pengguna Insidentil untuk memanfaatkan layanan e-Court secara optimal. Pelatihan gratis diselenggarakan setiap hari Jumat di setiap Pengadilan Tinggi.",
+    isi: "Fakultas Hukum Universitas Tulungagung mengajak seluruh mahasiswa dan pengguna simulasi untuk memanfaatkan layanan e-Court FH UNTA secara optimal sebagai media pembelajaran. Sosialisasi dan praktik diselenggarakan secara berkala.",
     dari: "MAHKAMAH_AGUNG",
     status: "AKTIF",
     createdAt: "2024-04-01T00:00:00.000Z",
   },
   {
     id: "pgm-002",
-    judul: "Pemeliharaan Sistem",
-    isi: "Aplikasi e-Court akan dilakukan pemeliharaan rutin pada hari Sabtu pukul 23:00 - 02:00 WIB. Mohon maaf atas ketidaknyamanan ini.",
+    judul: "Pemeliharaan Sistem e-Court FH UNTA",
+    isi: "Aplikasi e-Court FH UNTA akan dilakukan pemeliharaan rutin pada hari Sabtu pukul 23:00 - 02:00 WIB. Mohon maaf atas ketidaknyamanan ini.",
     dari: "MAHKAMAH_AGUNG",
     status: "AKTIF",
     createdAt: "2024-04-15T00:00:00.000Z",

@@ -12,7 +12,7 @@ export function PengumumanView() {
       <div>
         <h2 className="font-heading text-2xl font-bold">Pengumuman</h2>
         <p className="text-sm text-muted-foreground">
-          Informasi resmi dari Mahkamah Agung dan Pengadilan
+          Informasi resmi dari Fakultas Hukum UNTA dan Pengadilan
         </p>
       </div>
 
@@ -31,7 +31,7 @@ export function PengumumanView() {
                       : "bg-secondary text-secondary-foreground"
                   }
                 >
-                  {p.dari === "MAHKAMAH_AGUNG" ? "Mahkamah Agung" : "Pengadilan"}
+                  {p.dari === "MAHKAMAH_AGUNG" ? "FH UNTA" : "Pengadilan"}
                 </Badge>
               </div>
               <div className="text-xs text-muted-foreground">

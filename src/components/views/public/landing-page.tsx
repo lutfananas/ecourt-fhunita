@@ -95,36 +95,37 @@ export function LandingPage() {
   return (
     <main className="flex-1">
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[oklch(0.28_0.09_250)] via-[oklch(0.32_0.10_250)] to-[oklch(0.22_0.08_250)] text-white">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[oklch(0.24_0.11_255)] via-[oklch(0.28_0.13_255)] to-[oklch(0.20_0.10_255)] text-white">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute -top-10 -right-10 h-72 w-72 rounded-full bg-[oklch(0.82_0.13_85)] blur-3xl"></div>
-          <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-[oklch(0.82_0.13_85)] blur-3xl"></div>
+          <div className="absolute -top-10 -right-10 h-72 w-72 rounded-full bg-[oklch(0.55_0.22_25)] blur-3xl"></div>
+          <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-[oklch(0.55_0.22_25)] blur-3xl"></div>
         </div>
         <div className="container relative mx-auto px-4 py-20 md:py-28">
           <div className="grid items-center gap-8 md:grid-cols-2">
             <div>
-              <Badge className="mb-4 border-[oklch(0.82_0.13_85)] bg-[oklch(0.82_0.13_85)]/20 text-[oklch(0.82_0.13_85)] hover:bg-[oklch(0.82_0.13_85)]/30">
-                Perma No. 3 Tahun 2018
+              <Badge className="mb-4 border-[oklch(0.55_0.22_25)] bg-[oklch(0.55_0.22_25)]/20 text-[oklch(0.65_0.22_25)] hover:bg-[oklch(0.55_0.22_25)]/30">
+                Media Pembelajaran FH UNTA
               </Badge>
               <h1 className="font-heading text-4xl font-extrabold leading-tight md:text-6xl">
                 Sistem Peradilan Elektronik{" "}
-                <span className="text-[oklch(0.82_0.13_85)]">
-                  Mahkamah Agung
+                <span className="text-[oklch(0.65_0.22_25)]">
+                  Fakultas Hukum
                 </span>{" "}
-                Republik Indonesia
+                Universitas Tulungagung
               </h1>
               <p className="mt-6 text-lg text-white/80 md:text-xl">
-                e-Court adalah instrumen Pengadilan sebagai bentuk pelayanan
-                terhadap masyarakat dalam hal Pendaftaran Perkara secara online,
-                Taksiran Panjar Biaya secara elektronik, Pembayaran Panjar Biaya
-                secara online, Pemanggilan secara online, dan Persidangan secara
-                online.
+                e-Court FH UNTA adalah media pembelajaran simulasi pelayanan
+                peradilan elektronik Fakultas Hukum Universitas Tulungagung
+                yang mengadaptasi Manual Book e-Court Mahkamah Agung. Mencakup
+                Pendaftaran Perkara secara online, Taksiran Panjar Biaya
+                secara elektronik, Pembayaran Panjar Biaya secara online,
+                Pemanggilan secara online, dan Persidangan secara online.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button
                   size="lg"
                   onClick={() => setView("register")}
-                  className="bg-[oklch(0.82_0.13_85)] text-[oklch(0.22_0.04_250)] hover:bg-[oklch(0.72_0.13_85)]"
+                  className="bg-[oklch(0.55_0.22_25)] text-white hover:bg-[oklch(0.50_0.22_25)]"
                 >
                   Register Pengguna Terdaftar
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -140,19 +141,19 @@ export function LandingPage() {
               </div>
               <div className="mt-10 grid grid-cols-3 gap-4 border-t border-white/20 pt-6">
                 <div>
-                  <div className="text-3xl font-bold text-[oklch(0.82_0.13_85)]">
+                  <div className="text-3xl font-bold text-[oklch(0.65_0.22_25)]">
                     {pengadilanCount}+
                   </div>
                   <div className="text-xs text-white/70">Pengadilan Aktif</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[oklch(0.82_0.13_85)]">
+                  <div className="text-3xl font-bold text-[oklch(0.65_0.22_25)]">
                     {perkaraCount}+
                   </div>
                   <div className="text-xs text-white/70">Perkara Terdaftar</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[oklch(0.82_0.13_85)]">
+                  <div className="text-3xl font-bold text-[oklch(0.65_0.22_25)]">
                     4
                   </div>
                   <div className="text-xs text-white/70">Layanan Elektronik</div>
@@ -165,7 +166,7 @@ export function LandingPage() {
                   <h3 className="font-heading text-xl font-bold">
                     Pengumuman Terbaru
                   </h3>
-                  <Bell className="h-5 w-5 text-[oklch(0.82_0.13_85)]" />
+                  <Bell className="h-5 w-5 text-[oklch(0.65_0.22_25)]" />
                 </div>
                 <div className="space-y-3 max-h-80 overflow-y-auto pr-2">
                   {pengumuman.map((p) => (
@@ -174,9 +175,9 @@ export function LandingPage() {
                       className="rounded-lg bg-white/5 p-3 border border-white/10"
                     >
                       <div className="flex items-center gap-2 mb-1">
-                        <Badge className="bg-[oklch(0.82_0.13_85)] text-[oklch(0.22_0.04_250)]">
+                        <Badge className="bg-[oklch(0.55_0.22_25)] text-white">
                           {p.dari === "MAHKAMAH_AGUNG"
-                            ? "Mahkamah Agung"
+                            ? "FH UNTA"
                             : "Pengadilan"}
                         </Badge>
                         <span className="text-xs text-white/60">
@@ -279,49 +280,50 @@ export function LandingPage() {
       <section className="container mx-auto px-4 py-16 md:py-24">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold">
-            Pengguna e-Court
+            Pengguna e-Court FH UNTA
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-            e-Court melayani berbagai jenis pengguna sesuai dengan peran dan
-            kewenangannya.
+            e-Court FH UNTA melayani berbagai jenis pengguna sesuai dengan peran
+            dan kewenangannya - sebagai media pembelajaran simulasi peradilan
+            elektronik.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
             {
               title: "Pengguna Terdaftar (Advokat)",
-              desc: "Advokat yang telah disumpah dan terverifikasi oleh Pengadilan Tingkat Banding. Dapat mendaftarkan perkara untuk klien.",
+              desc: "Simulasi advokat yang telah disumpah dan terverifikasi oleh Pengadilan Tingkat Banding. Dapat mendaftarkan perkara untuk klien.",
               icon: Scale,
             },
             {
               title: "Pengguna Insidentil",
-              desc: "Pengguna non-advokat (Perseorangan, Pemerintahan, atau Badan Hukum) yang beracara sendiri tanpa advokat.",
+              desc: "Simulasi pengguna non-advokat (Perseorangan, Pemerintahan, atau Badan Hukum) yang beracara sendiri tanpa advokat.",
               icon: FileText,
             },
             {
               title: "Administrator Pengadilan",
-              desc: "Petugas pengadilan yang mengelola konfigurasi, verifikasi, dan administrasi pendaftaran perkara online.",
+              desc: "Simulasi petugas pengadilan yang mengelola konfigurasi, verifikasi, dan administrasi pendaftaran perkara online.",
               icon: ShieldCheck,
             },
             {
               title: "Hakim",
-              desc: "Hakim yang memeriksa perkara, memverifikasi dokumen persidangan, dan mengunggah salinan putusan.",
+              desc: "Simulasi hakim yang memeriksa perkara, memverifikasi dokumen persidangan, dan mengunggah salinan putusan.",
               icon: Scale,
             },
             {
               title: "Pengadilan Tingkat Banding",
-              desc: "Pengadilan tingkat banding yang memverifikasi data advokat di wilayahnya.",
+              desc: "Simulasi pengadilan tingkat banding yang memverifikasi data advokat di wilayahnya.",
               icon: ShieldCheck,
             },
             {
               title: "Pengadilan Tingkat Pertama",
-              desc: "Pengadilan tingkat pertama yang menerima pendaftaran dan melakukan registrasi perkara di SIPP.",
+              desc: "Simulasi pengadilan tingkat pertama yang menerima pendaftaran dan melakukan registrasi perkara di SIPP.",
               icon: FileText,
             },
           ].map((u) => (
             <Card key={u.title} className="border-border shadow-sm">
               <CardContent className="pt-6">
-                <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-lg bg-accent/30 text-primary">
+                <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-lg bg-accent/15 text-primary">
                   <u.icon className="h-5 w-5" />
                 </div>
                 <h3 className="font-heading text-lg font-bold mb-2">
@@ -335,20 +337,20 @@ export function LandingPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-gradient-to-br from-[oklch(0.28_0.09_250)] to-[oklch(0.22_0.08_250)] text-white">
+      <section className="bg-gradient-to-br from-[oklch(0.24_0.11_255)] to-[oklch(0.20_0.10_255)] text-white">
         <div className="container mx-auto px-4 py-16 text-center">
           <h2 className="font-heading text-3xl md:text-4xl font-extrabold">
-            Mulai Beracara Secara Elektronik Hari Ini
+            Mulai Pembelajaran Beracara Secara Elektronik Hari Ini
           </h2>
           <p className="mt-4 text-white/80 max-w-2xl mx-auto">
-            Daftarkan akun Anda dan nikmati kemudahan beracara secara online
-            dengan e-Court Mahkamah Agung.
+            Daftarkan akun Anda dan pelajari simulasi beracara secara online
+            dengan e-Court FH UNTA - Fakultas Hukum Universitas Tulungagung.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button
               size="lg"
               onClick={() => setView("register")}
-              className="bg-[oklch(0.82_0.13_85)] text-[oklch(0.22_0.04_250)] hover:bg-[oklch(0.72_0.13_85)]"
+              className="bg-[oklch(0.55_0.22_25)] text-white hover:bg-[oklch(0.50_0.22_25)]"
             >
               Daftar Sekarang
             </Button>

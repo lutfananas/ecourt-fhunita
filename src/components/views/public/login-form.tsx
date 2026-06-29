@@ -42,7 +42,7 @@ export function LoginForm() {
     const success = login(username, password);
     if (success) {
       toast.success("Login berhasil", {
-        description: "Selamat datang di e-Court Mahkamah Agung",
+        description: "Selamat datang di e-Court FH UNTA",
       });
     } else {
       setError("Username/email atau password salah. Silakan coba lagi.");
@@ -70,10 +70,10 @@ export function LoginForm() {
             <CardHeader className="space-y-3">
               <Logo size="lg" />
               <Separator />
-              <CardTitle className="font-heading text-2xl">Login e-Court</CardTitle>
+              <CardTitle className="font-heading text-2xl">Login e-Court FH UNTA</CardTitle>
               <CardDescription>
-                Masuk ke aplikasi e-Court Mahkamah Agung menggunakan akun yang
-                telah terdaftar.
+                Masuk ke aplikasi e-Court Fakultas Hukum Universitas Tulungagung
+                menggunakan akun yang telah terdaftar.
               </CardDescription>
             </CardHeader>
             <CardContent>

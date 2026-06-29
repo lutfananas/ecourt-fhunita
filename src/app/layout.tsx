@@ -17,20 +17,33 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "e-Court Mahkamah Agung | Sistem Peradilan Elektronik",
+  title: "e-Court FH UNTA | Sistem Peradilan Elektronik Fakultas Hukum Universitas Tulungagung",
   description:
-    "e-Court adalah aplikasi pelayanan peradilan elektronik Mahkamah Agung RI untuk pendaftaran perkara online (e-Filing), pembayaran panjar biaya (e-Payment), pemanggilan elektronik (e-Summons), dan persidangan elektronik (e-Litigasi).",
+    "e-Court FH UNTA adalah media pembelajaran sistem peradilan elektronik Fakultas Hukum Universitas Tulungagung untuk pendaftaran perkara online (e-Filing), pembayaran panjar biaya (e-Payment), pemanggilan elektronik (e-Summons), dan persidangan elektronik (e-Litigasi).",
   keywords: [
     "e-Court",
-    "Mahkamah Agung",
+    "FH UNTA",
+    "Fakultas Hukum Universitas Tulungagung",
+    "Universitas Tulungagung",
+    "UNITA",
     "Peradilan Elektronik",
     "e-Filing",
     "e-Payment",
     "e-Summons",
     "e-Litigasi",
     "Perkara Online",
+    "Media Pembelajaran Hukum",
   ],
-  authors: [{ name: "Mahkamah Agung RI" }],
+  authors: [{ name: "Fakultas Hukum Universitas Tulungagung" }],
+  icons: {
+    icon: "/unita-logo.png",
+  },
+  openGraph: {
+    title: "e-Court FH UNTA - Sistem Peradilan Elektronik",
+    description: "Media pembelajaran peradilan elektronik Fakultas Hukum Universitas Tulungagung",
+    siteName: "e-Court FH UNTA",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

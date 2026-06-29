@@ -4,30 +4,32 @@ import { useAppStore } from "@/lib/store";
 import { useTheme } from "@/components/theme-provider";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function Logo({ size = "md" }: { size?: "sm" | "md" | "lg" }) {
   const sizeMap = {
-    sm: { box: "h-9 w-9", text: "text-base", sub: "text-[10px]" },
-    md: { box: "h-11 w-11", text: "text-lg", sub: "text-[11px]" },
+    sm: { box: "h-10 w-10", text: "text-base", sub: "text-[10px]" },
+    md: { box: "h-12 w-12", text: "text-lg", sub: "text-[11px]" },
     lg: { box: "h-16 w-16", text: "text-2xl", sub: "text-sm" },
   };
   const s = sizeMap[size];
   return (
     <div className="flex items-center gap-3">
-      <div
-        className={`${s.box} relative rounded-full bg-gradient-to-br from-[oklch(0.32_0.10_250)] to-[oklch(0.22_0.08_250)] flex items-center justify-center border-2 border-[oklch(0.82_0.13_85)] shadow-md`}
-      >
-        <div className="text-[oklch(0.82_0.13_85)] font-bold text-center leading-none">
-          <div className="text-[10px]">MA</div>
-          <div className="text-[10px]">RI</div>
-        </div>
+      <div className={`${s.box} relative shrink-0`}>
+        <Image
+          src="/unita-logo.png"
+          alt="Logo Universitas Tulungagung"
+          fill
+          className="object-contain"
+          priority
+        />
       </div>
       <div className="leading-tight">
         <div className={`font-heading font-extrabold ${s.text} text-primary`}>
-          e-Court
+          e-Court FH UNTA
         </div>
         <div className={`${s.sub} text-muted-foreground font-medium`}>
-          Mahkamah Agung RI
+          Fakultas Hukum Universitas Tulungagung
         </div>
       </div>
     </div>
@@ -84,11 +86,28 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <Logo size="sm" />
-            <p className="mt-3 text-sm text-sidebar-foreground/70">
-              Sistem peradilan elektronik Mahkamah Agung Republik Indonesia
-              untuk pelayanan peradilan yang lebih cepat, transparan, dan
-              akuntabel.
+            <div className="flex items-center gap-3 mb-3">
+              <div className="h-10 w-10 relative">
+                <Image
+                  src="/unita-logo.png"
+                  alt="Logo UNTA"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="leading-tight">
+                <div className="font-heading font-extrabold text-base text-white">
+                  e-Court FH UNTA
+                </div>
+                <div className="text-[10px] text-[oklch(0.55_0.22_25)] font-medium">
+                  Fakultas Hukum Universitas Tulungagung
+                </div>
+              </div>
+            </div>
+            <p className="text-sm text-sidebar-foreground/70">
+              Sistem peradilan elektronik Fakultas Hukum Universitas Tulungagung
+              sebagai media pembelajaran dan simulasi pelayanan peradilan
+              elektronik yang lebih cepat, transparan, dan akuntabel.
             </p>
           </div>
           <div>
@@ -103,17 +122,21 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-3">Kontak</h4>
             <ul className="space-y-1.5 text-sm text-sidebar-foreground/70">
-              <li>Mahkamah Agung Republik Indonesia</li>
-              <li>Jl. Medan Merdeka Utara No. 9-13</li>
-              <li>Jakarta Pusat 10110</li>
-              <li>Telepon: (021) 3843348</li>
-              <li>Email: info@mahkamahagung.go.id</li>
+              <li>Fakultas Hukum Universitas Tulungagung</li>
+              <li>Jl. Ki Mangunsarkoro No. 4, Beji</li>
+              <li>Kec. Boyolangu, Kab. Tulungagung</li>
+              <li>Jawa Timur 66223, Indonesia</li>
+              <li>Telepon: (0355) 322145 / 320396</li>
+              <li>Fax: (0355) 327068</li>
+              <li>Email: fakultashukum@unita.ac.id</li>
+              <li>Website: fh.unita.ac.id</li>
             </ul>
           </div>
         </div>
         <div className="mt-6 pt-6 border-t border-sidebar-border text-center text-xs text-sidebar-foreground/60">
-          &copy; {new Date().getFullYear()} Mahkamah Agung Republik Indonesia.
-          e-Court v3.0. Demo implementasi berdasarkan Manual Book e-Court 2019.
+          &copy; {new Date().getFullYear()} Fakultas Hukum Universitas
+          Tulungagung. e-Court v3.0. Media pembelajaran simulasi peradilan
+          elektronik berdasarkan Manual Book e-Court Mahkamah Agung 2019.
         </div>
       </div>
     </footer>

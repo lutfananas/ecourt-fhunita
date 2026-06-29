@@ -27,6 +27,7 @@ import {
 } from "lucide-react";
 import { ROLE_LABEL, type ViewName } from "@/lib/types";
 import { Sidebar } from "./sidebar";
+import Image from "next/image";
 
 export function AppHeader() {
   const currentUser = useAppStore((s) => s.currentUser);
@@ -76,9 +77,24 @@ export function AppHeader() {
           </SheetContent>
         </Sheet>
 
-        <div className="hidden lg:block">
-          <button onClick={() => setView("landing")}>
-            <Logo size="sm" />
+        <div className="hidden lg:flex items-center gap-3">
+          <button onClick={() => setView("landing")} className="flex items-center gap-3">
+            <div className="h-10 w-10 relative">
+              <Image
+                src="/unita-logo.png"
+                alt="Logo UNTA"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="leading-tight">
+              <div className="font-heading font-extrabold text-base text-primary">
+                e-Court FH UNTA
+              </div>
+              <div className="text-[10px] text-muted-foreground font-medium">
+                Fakultas Hukum Universitas Tulungagung
+              </div>
+            </div>
           </button>
         </div>
 

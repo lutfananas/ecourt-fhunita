@@ -75,3 +75,59 @@ Stage Summary:
 - Lint bersih tanpa error
 - Mobile responsive berfungsi
 - Siap untuk handover ke user
+
+---
+Task ID: eCourt-003
+Agent: Main (Super Z)
+Task: Rebranding website e-Court menjadi milik Fakultas Hukum Universitas Tulungagung (FH UNTA)
+
+Work Log:
+- Cari informasi kontak Universitas Tulungagung via web search
+- Dapatkan data: Jl. Ki Mangunsarkoro No. 4, Beji, Boyolangu, Tulungagung 66223, Jawa Timur
+- Telepon: (0355) 322145 / 320396, Fax: (0355) 327068
+- Email FH: fakultashukum@unita.ac.id, Humas: humas@unita.ac.id
+- Website: fh.unita.ac.id / unita.ac.id
+- Copy logo UNTA (unita-logo.png, 711x676 PNG) ke /public/
+- Update globals.css: tema warna dari Navy+Gold (Mahkamah Agung) ke Biru Dongker + Merah (FH UNTA)
+  - Primary: oklch(0.28 0.13 255) - Biru dongker
+  - Accent: oklch(0.55 0.22 25) - Merah
+  - Sidebar: oklch(0.24 0.11 255) - Biru dongker lebih gelap
+  - Tambahkan variabel --merah dan --biru-dongker
+- Update Logo component: pakai Image UNTA logo, nama "e-Court FH UNTA", subtitle "Fakultas Hukum Universitas Tulungagung"
+- Update AppHeader: logo UNTA + branding FH UNTA
+- Update Sidebar: logo UNTA + branding FH UNTA + badge merah
+- Update Footer: kontak lengkap UNTA (alamat, telepon, fax, email, website), copyright FH UNTA
+- Update Landing Page:
+  - Hero section: gradient biru dongker + accent merah
+  - Title: "Sistem Peradilan Elektronik Fakultas Hukum Universitas Tulungagung"
+  - Description: media pembelajaran simulasi pelayanan peradilan elektronik
+  - Badge: "Media Pembelajaran FH UNTA"
+  - Pengumuman: label "FH UNTA" (bukan "Mahkamah Agung")
+  - CTA section: gradient biru dongker + tombol merah
+  - User types: deskripsi simulasi pembelajaran
+- Update Login form: title "Login e-Court FH UNTA", description UNTA, toast "Selamat datang di e-Court FH UNTA"
+- Update Register form: title, description, syarat & ketentuan UNTA
+- Update Dashboard: welcome banner gradient biru dongker, teks FH UNTA, tombol merah
+- Update e-SKUM header: "Fakultas Hukum Universitas Tulungagung"
+- Update Pengumuman view: label "FH UNTA"
+- Update mock data: pengumuman isi rebrand ke FH UNTA
+- Update metadata (layout.tsx): title, description, keywords, authors, icons (favicon UNTA)
+- Lint check: 0 error
+- Verifikasi via Agent Browser:
+  - Title browser: "e-Court FH UNTA | Sistem Peradilan Elektronik Fakultas Hukum Universitas Tulungagung" ✓
+  - Logo UNTA termuat di header, sidebar, footer (naturalWidth 474) ✓
+  - H1 landing: "Sistem Peradilan Elektronik Fakultas Hukum Universitas Tulungagung" ✓
+  - Footer berisi kontak lengkap UNTA (alamat, telepon, fax, email, website) ✓
+  - Tema warna: primary biru dongker (lab 15% 10.7 -44.4), accent merah (lab 45% 69.9 46.3) ✓
+  - Mobile responsive (375x812) ✓
+  - Login form rebrand ✓
+  - Dashboard rebrand ✓
+
+Stage Summary:
+- Website e-Court berhasil direbrand menjadi milik Fakultas Hukum Universitas Tulungagung
+- Tema visual: Biru Dongker (primary) + Merah (accent) sesuai identitas UNTA
+- Logo UNTA terpasang di header, sidebar, footer, dan favicon
+- Semua kontak (alamat, telepon, fax, email, website) menggunakan UNTA
+- Deskripsi ditekankan sebagai "media pembelajaran simulasi peradilan elektronik"
+- Atribusi ke Manual Book e-Court Mahkamah Agung 2019 tetap dipertahankan sebagai sumber referensi
+- 6 screenshot baru disimpan di download/ (21-26)

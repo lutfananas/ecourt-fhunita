@@ -95,14 +95,15 @@ export function Dashboard() {
   return (
     <div className="space-y-6">
       {/* Welcome banner */}
-      <div className="rounded-xl bg-gradient-to-br from-[oklch(0.32_0.10_250)] to-[oklch(0.22_0.08_250)] p-6 text-white shadow-lg">
+      <div className="rounded-xl bg-gradient-to-br from-[oklch(0.28_0.13_255)] to-[oklch(0.20_0.10_255)] p-6 text-white shadow-lg">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <h2 className="font-heading text-2xl font-extrabold">
               Selamat Datang, {currentUser.nama}
             </h2>
             <p className="mt-1 text-white/80 text-sm">
-              {ROLE_LABEL[currentUser.role]} · e-Court Mahkamah Agung RI
+              {ROLE_LABEL[currentUser.role]} · e-Court FH UNTA - Fakultas Hukum
+              Universitas Tulungagung
             </p>
             {currentUser.role === "ADVOKAT" && currentUser.status === "BELUM_VERIFIKASI" && (
               <Badge className="mt-3 bg-amber-400 text-amber-950 hover:bg-amber-400">
@@ -114,7 +115,7 @@ export function Dashboard() {
                 <Button
                   size="sm"
                   onClick={() => setView("pendaftaran-perkara")}
-                  className="bg-[oklch(0.82_0.13_85)] text-[oklch(0.22_0.04_250)] hover:bg-[oklch(0.72_0.13_85)]"
+                  className="bg-[oklch(0.55_0.22_25)] text-white hover:bg-[oklch(0.50_0.22_25)]"
                 >
                   <PlusCircle className="mr-2 h-4 w-4" />
                   Daftar Perkara Baru
@@ -123,7 +124,7 @@ export function Dashboard() {
             )}
           </div>
           <div className="hidden md:block">
-            <Scale className="h-16 w-16 text-[oklch(0.82_0.13_85)] opacity-80" />
+            <Scale className="h-16 w-16 text-[oklch(0.65_0.22_25)] opacity-80" />
           </div>
         </div>
       </div>
@@ -393,7 +394,7 @@ export function Dashboard() {
                 >
                   <div className="flex items-center gap-2 mb-1">
                     <Badge className="text-[10px] bg-primary text-primary-foreground">
-                      {pgm.dari === "MAHKAMAH_AGUNG" ? "Mahkamah Agung" : "Pengadilan"}
+                      {pgm.dari === "MAHKAMAH_AGUNG" ? "FH UNTA" : "Pengadilan"}
                     </Badge>
                     <span className="text-[10px] text-muted-foreground">
                       {new Date(pgm.createdAt).toLocaleDateString("id-ID", {

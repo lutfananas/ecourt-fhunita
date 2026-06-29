@@ -19,6 +19,7 @@ import {
   Bell,
   Scale,
 } from "lucide-react";
+import Image from "next/image";
 
 interface MenuItem {
   view: ViewName;
@@ -98,23 +99,25 @@ export function Sidebar() {
 
   return (
     <aside className="flex h-full flex-col bg-sidebar text-sidebar-foreground border-r border-sidebar-border">
-      <div className="flex h-16 items-center border-b border-sidebar-border px-4 bg-[oklch(0.22_0.08_250)]">
+      <div className="flex h-16 items-center border-b border-sidebar-border px-4 bg-[oklch(0.20_0.10_255)]">
         <button
           onClick={() => setView("landing")}
-          className="flex items-center gap-3"
+          className="flex items-center gap-3 w-full"
         >
-          <div className="h-9 w-9 rounded-full bg-gradient-to-br from-[oklch(0.32_0.10_250)] to-[oklch(0.22_0.08_250)] flex items-center justify-center border-2 border-[oklch(0.82_0.13_85)]">
-            <div className="text-[oklch(0.82_0.13_85)] font-bold text-[9px] leading-none text-center">
-              <div>MA</div>
-              <div>RI</div>
-            </div>
+          <div className="h-10 w-10 relative shrink-0">
+            <Image
+              src="/unita-logo.png"
+              alt="Logo UNTA"
+              fill
+              className="object-contain"
+            />
           </div>
-          <div className="leading-tight">
-            <div className="font-heading font-extrabold text-base text-white">
-              e-Court
+          <div className="leading-tight min-w-0">
+            <div className="font-heading font-extrabold text-base text-white truncate">
+              e-Court FH UNTA
             </div>
-            <div className="text-[10px] text-[oklch(0.82_0.13_85)] font-medium">
-              Mahkamah Agung RI
+            <div className="text-[10px] text-[oklch(0.60_0.22_25)] font-medium truncate">
+              Fakultas Hukum UNTA
             </div>
           </div>
         </button>
@@ -143,7 +146,7 @@ export function Sidebar() {
                     "inline-flex h-5 min-w-5 items-center justify-center rounded-full px-1.5 text-xs font-bold",
                     isActive
                       ? "bg-sidebar-primary-foreground text-sidebar-primary"
-                      : "bg-[oklch(0.82_0.13_85)] text-[oklch(0.22_0.04_250)]"
+                      : "bg-[oklch(0.55_0.22_25)] text-white"
                   )}
                 >
                   {badge}
@@ -157,7 +160,7 @@ export function Sidebar() {
       <div className="border-t border-sidebar-border p-3">
         <div className="rounded-lg bg-sidebar-accent/50 p-3 text-xs">
           <div className="flex items-center gap-2 mb-1">
-            <Scale className="h-3.5 w-3.5 text-[oklch(0.82_0.13_85)]" />
+            <Scale className="h-3.5 w-3.5 text-[oklch(0.60_0.22_25)]" />
             <span className="font-semibold">Status Akun</span>
           </div>
           <div className="text-sidebar-foreground/70">
